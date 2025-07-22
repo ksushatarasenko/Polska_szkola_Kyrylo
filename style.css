@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1%;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgb(246, 185, 185);
+    height: auto;
+}
+
+.wraper {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    background-color: blanchedalmond;
+    padding-bottom: 10%;
+}
+
+/* ====== HEADER ================ */
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: rgb(226, 199, 244);
+}
+
+header ul {
+    display: flex;
+    gap: 4%;
+    padding: 2%;
+    list-style-type: none;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* UL */
+
+ul {
+    list-style-type: none;
+    padding: 3%;
+    line-height: 1.5;
+    font-size: 22px;
+}
+
+ul>li {
+    margin-left: 5%;
+}
+
+.ul {
+    font-size: 30px;
+}
+
+
+/* a -sylka */
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 1s ease;
+    color: rgb(51, 2, 84);
+}
+
+a:hover {
+    transform: scale(0.9);
+    color: rgb(199, 199, 1)
+}
+
+/* ulHome */
+
+.ulHome {
+    display: flex;
+    gap: 9%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.zagolowok {
+    width: 220px;
+    margin-bottom: 2%;
+}
+
+.zagolowok>img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease, border 0.3s ease;
+    outline: 0px solid black;
+    cursor: pointer;
+}
+
+.zagolowok:hover {
+    transform: scale(0.95);
+    /* outline: 5px solid black; */
+}
+
+/* IMG/ VIDEO */
+.video {
+    width: 80%;
+    height: 40em;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 2% auto;
+}
+
+.video iframe {
+    width: 100%;
+    height: 90%;
+}
+
+.image {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2% auto;
+}
+
+.image>img {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.video>iframe {
+    width: 80%;
+    margin: 0 auto;
+    height: 40em;
+}
