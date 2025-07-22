@@ -43,6 +43,10 @@ p{
 .p{
     font-size: 19px;
 }
+.centr{
+    text-align: center;
+    margin: 0 auto;
+}
 
 .red{
     color: red;
