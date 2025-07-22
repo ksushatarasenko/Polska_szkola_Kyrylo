@@ -87,15 +87,17 @@ a:hover {
 
 .ulHome {
     display: flex;
-    gap: 9%;
+    gap: 7%;
     flex-wrap: wrap;
     margin: 0 auto;
     justify-content: center;
+    width: 90%;
 }
 
 .zagolowok {
-    width: 220px;
-    margin-bottom: 2%;
+    width: 200px;
+    height: 282px;
+    margin-bottom: 10%;
 }
 
 .zagolowok>img {

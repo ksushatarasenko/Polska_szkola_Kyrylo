@@ -40,6 +40,9 @@ p{
     text-indent: 35px;
     line-height: 1.4;
 }
+.p{
+    font-size: 19px;
+}
 
 .red{
     color: red;
