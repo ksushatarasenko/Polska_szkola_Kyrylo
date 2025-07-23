@@ -50,7 +50,7 @@ ul {
     list-style-type: none;
     padding: 3%;
     line-height: 1.5;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 ul>li {
@@ -164,4 +164,5 @@ a:hover {
     display: flex;
     justify-content: center;
     gap: 5%;
+    margin: 1%;
 }
