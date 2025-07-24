@@ -57,7 +57,7 @@ p{
 .playable {
       cursor: pointer;
       color: blue;
-      text-decoration: underline;
+      /* text-decoration: underline; */
       margin: 1px;
       display: inline-block;
     }
