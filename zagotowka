@@ -1,0 +1,6 @@
+<p><span class="playable" data-audio="../audio/środowisko.mp3">środowisko</span> - окружающая среда</p>
+<p><span class="playable" data-audio="../audio/środowisko.mp3">środowisko</span> - окружающая среда</p>
+<p><span class="playable" data-audio="../audio/środowisko.mp3">środowisko</span> - окружающая среда</p>
+
+  <!-- Один тег audio, который переиспользуется -->
+  <audio id="player"></audio>

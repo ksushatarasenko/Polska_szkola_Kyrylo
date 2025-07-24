@@ -51,3 +51,13 @@ p{
 .red{
     color: red;
 }
+
+/* AUDIO SŁOWO */
+
+.playable {
+      cursor: pointer;
+      color: blue;
+      text-decoration: underline;
+      margin: 1px;
+      display: inline-block;
+    }
