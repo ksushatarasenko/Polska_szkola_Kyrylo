@@ -26,7 +26,13 @@ body {
     background-color: blanchedalmond;
     padding-bottom: 10%;
 }
-
+hr{
+    width: 90%;
+    margin: 1% auto;
+    height: 1px; /* толщина */
+    background-color: gray; /* цвет */
+    border: none; /* убираем стандартную границу */
+}
 /* ====== HEADER ================ */
 header {
     display: flex;
@@ -96,7 +102,7 @@ a:hover {
 
 .zagolowok {
     width: 200px;
-    height: 282px;
+    height: 292px;
     margin-bottom: 10%;
 }
 
