@@ -16,6 +16,7 @@ body {
     margin: 0 auto;
     background-color: rgb(246, 185, 185);
     height: auto;
+    padding-bottom: 10%;
 }
 
 .wraper {
@@ -129,7 +130,15 @@ a:hover {
     margin: 2% auto;
 }
 .prezent{
-    width: 90%;
+    width: 80%;
+    height: 54em;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 2% auto;
+}
+.pdf{
+    width: 60%;
     height: 54em;
     display: flex;
     justify-content: center;
@@ -138,7 +147,8 @@ a:hover {
 }
 
 .video iframe,
-.prezent iframe {
+.prezent iframe,
+.pdf iframe {
     width: 100%;
     height: 90%;
 }
