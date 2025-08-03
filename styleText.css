@@ -15,11 +15,11 @@ h4{
 }
 h5{
     font-size: 24px;
-    color: orangered;
+    color: rgb(214, 43, 1);
 }
 h6{
     font-size: 20px;
-    color: red;
+    color: rgb(89, 0, 255);
 }
 
 h1,h2,h3,h4,h5,h6{
