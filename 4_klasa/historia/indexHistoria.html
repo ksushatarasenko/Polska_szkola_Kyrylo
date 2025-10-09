@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia</title>
+    <style>
+        main {
+            margin: 0;
+            /* убираем отступы */
+            height: 100vh;
+            /* вся высота окна */
+            background-image: url("https://www.eduelo.pl/attachments/plytka-historia.svg");
+            background-color: #f9897a;
+            /* запасной цвет */
+            background-size: cover;
+            /* масштабируем */
+            background-repeat: no-repeat;
+            /* убираем повтор */
+            background-position: center;
+            /* центрируем */
+        }
+
+        body {
+            background-color: #fc9c8f;
+        }
+    </style>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../styleText.css">
+</head>
+
+<body>
+    <header>
+
+        <ul class="header">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../polska/indexPolska.html">Język polski</a></li>
+            <li><a href="../matematyka/indexMatematyka.html">Matematyka</a></li>
+            <li><a href="../przyroda/indexPrzyroda.html">Przyroda</a></li>
+            <li><a href="../angielska/indexAngl.html">Język angielski</a></li>
+            <li><a href="#">Historia</a></li>
+            <li><a href="../lektura/indexLektura.html">Lektura</a></li>
+        </ul>
+    </header>
+    <main class="wrapper">
+        <h1>Historia</h1>
+        <h3>Spis treści</h3>
+        <div class="hint2-container" onclick="toggleHint2(this, event)">
+            <div class="hint2-header"><b>Rozdział I:</b> Z historią na Ty</div>
+            <div class="hint2-content">
+                <p><a href="./lekcji/lekcja01.html">1. Historia - nauka o przeszłości: 8-11</a></p>
+                <p><a href="./lekcji/lekcja02.html">2. Historia wokół nas 12-16</a></p>
+                <p><a href="./lekcji/lekcja03.html">3. Mieszkamy w Polsce</a></p>
+                <p><a href="./lekcji/lekcja04.html">4. Czas w historii</a></p>
+                <p><a href="./lekcji/lekcja05.html">5. Obliczanie czasu w historii</a></p>
+                <p><a href="./lekcji/lekcja06.html">6. Czytamy mapę i plan</a></p>
+                <p><a href="./lekcji/lekcjaPodsumow_I_Rodzaj.html">Podsumowanie</a></p>
+            </div>
+        </div>
+        <div class="hint2-container" onclick="toggleHint2(this, event)">
+            <div class="hint2-header"><b>Rozdział II:</b> Od Piastów do Jagiellonów</div>
+            <div class="hint2-content">
+                <p><a href="">1. Mieszko I i chrzest Polski</a></p>
+                <p><a href="">2. Bolesław Chrobry - pierwszy król Polski</a></p>
+                <p><a href="">3. Polska Kazimierza Wielkiego</a></p>
+                <p><a href="">4. Jadwiga i Jagiełlo - unia polsko-litewska</a></p>
+                <p><a href="">5. Zawisza Czarny i bitwa pod Grunwaldem</a></p>
+                <p><a href="">6. Mikołaj Kopernik - wielki astronom</a></p>
+                <p><a href="">Podsumowanie</a></p>
+            </div>
+        </div>
+        <div class="hint2-container" onclick="toggleHint2(this, event)">
+            <div class="hint2-header"><b>Rozdział III:</b> Wojny i upadek Rzeczypospolitej</div>
+            <div class="hint2-content">
+                <p><a href="">1. Jan Zamoyski - druga osoba po królu</a></p>
+                <p><a href="">2. XVII wiek - stulecie wojen</a></p>
+                <p><a href="">3. Tadeusz Kościuszko na czele powstania</a></p>
+                <p><a href="">4. Józef Wybicki i hymn Polski</a></p>
+                <p><a href="">5. Romuald Traugutt i powstanie styczniowe</a></p>
+                <p><a href="">6. Maria Skłodowska-Curie - polska noblistka</a></p>
+                <p><a href="">Podsumowanie</a></p>
+            </div>
+        </div>
+        <div>
+            <h4>Wymagania na poszczególne oceny z historii w klasie czwartej</h4>
+            <h6>Rozdział 1. Z historią na Ty</h6>
+            <table>
+                <tr>
+                    <th>Temat lekcji</th>
+                    <th>Zagadnienia</th>
+                    <th>dopuszczająca</th>
+                    <th>dostateczna</th>
+                    <th>dobra</th>
+                    <th>bardzo dobra</th>
+                    <th>celująca</th>
+                </tr>
+                <tr>
+                    <th><a href="./lekcji/lekcja01.html">1. Historia – nauka o przeszłości</a></th>
+                    <td>
+                        <ul>
+                            <li>historia jako nauka o przeszłości;</li>
+                            <li>historia a baśnie i legendy;</li>
+                            <li>efekty pracy historyków i archeologów;</li>
+                            <li>źródła historyczne, ich przykłady oraz podział.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>przy pomocy nauczyciela posługuje się terminami: współczesność, przeszłość, historia, legenda, baśń;</li>
+                            <li>rozróżnia przeszłość od współczesności;</li>
+                            <li>potrafi krótko scharakte¬ryzować, czym zajmują się historycy.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminami: archeologia, źródła historyczne;</li>
+                            <li>rozróżnia pracę historyków i archeologów;</li>
+                            <li>potrafi podać przykłady postaci legendarnych i histo-rycznych;</li>
+                            <li>wyjaśnia, czym są przyczyny i skutki;</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>dokonuje podstawowego podziału źródeł historycznych;</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>wskazuje różne przykłady źródeł historycznych.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>omawia rolę źródeł historycznych w procesie poznawania dziejów;</li>
+                            <li>podaje przykłady działań służących zachowaniu źródeł historycznych dla potomnych.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th><a href="./lekcji/lekcja02.html">2. Historia wokół nas</a></th>
+                    <td>
+                        <ul>
+                            <li>znaczenie pamiątek rodzinnych;</li>
+                            <li>drzewo genealogiczne – sposób przedstawienia historii rodziny;</li>
+                            <li>„wielka” i „mała” ojczyzna;</li>
+                            <li>patriotyzm jako miłość do ojczyzny;</li>
+                            <li>sposoby wyrażania patriotyzmu;</li>
+                            <li>„małe ojczyzny” i ich tradycje;</li>
+                            <li>znaczenie terminów: <em>tradycja, drzewo genealogiczne, ojczyzna, mała ojczyzna, patriotyzm</em>.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>przy pomocy nauczycie-la poprawnie posługuje się terminami: <em>ojczyzna, patriotyzm</em>;</li>
+                            <li>podaje przykłady pamiątek rodzinnych.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminami: <em>ród, drzewo genealogiczne</em>;</li>
+                            <li>przygotowuje drzewo genealogiczne najbliższej rodziny;</li>
+                            <li>podaje przykłady postaw i zachowań patriotycznych.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminem <em>tradycja</em>;</li>
+                            <li>podaje przykłady regional¬nych tradycji.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>– poprawnie posługuje się terminem <em>„mała ojczyzna”</em>.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>wskazuje wybitne postaci w dziejach regionu.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th><a href="./lekcji/lekcja03.html">3. Mieszkamy w Polsce 17 - </a></th>
+                    <td>
+                        <ul>
+                            <li>państwo polskie i jego krainy historyczne;</li>
+                            <li>mój region częścią Polski;</li>
+                            <li>naród polski jako zbiorowość posługująca się tym samym językiem, mająca wspólną przeszłość i zamieszkująca to samo terytorium;</li>
+                            <li>dziedzictwo narodowe;</li>
+                            <li>polskie symbole narodowe;</li>
+                            <li>polskie święta państwowe ;</li>
+                            <li>znaczenie terminów: <em class="blue
+                                ">kraina historyczna, naród, symbole narodowe, Polonia</em>.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>wskazuje na mapie państwo polskie i jego granice.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminem <em>naród</em>;</li>
+                            <li>wymienia i rozpoznaje polskie symbole narodowe;</li>
+                            <li>zna tekst hymnu;</li>
+                            <li>wskazuje na mapie stolicę państwa.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminem <em>region</em>;</li>
+                            <li>wskazuje na mapie główne krainy historyczne Polski oraz największe miasta;</li>
+                            <li>wymienia najważniejsze święta państwowe.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminem <em>Polonia</em>;</li>
+                            <li>podaje przykłady dziedzictwa narodowego Polaków.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>omawia genezę polskich symboli narodowych;</li>
+                            <li>przedstawia genezę najważniejszych świąt państwowych.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th><a href="./lekcji/lekcja04.html">4. Czas w historii</a></th>
+                    <td>
+                        <ul>
+                            <li>chronologia i przedmiot jej badań;</li>
+                            <li>oś czasu i sposób umieszczania na niej dat;</li>
+                            <li>podstawowe określenia czasu historycznego <em>(data, okres p.n.e. i n.e., tysiąclecie, wiek)</em>;</li>
+                            <li>cyfry rzymskie oraz ich arabskie odpowiedniki;</li>
+                            <li>epoki historyczne: starożytność, średniowiecze, nowożytność, współczesność oraz ich daty graniczne.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>przy pomocy nauczyciela używa terminów chronolo¬gicznych: <em>tysiąclecie, wiek;</em></li>
+                            <li>umieszcza daty na osi czasu.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminami: <em>chronologia, okres p.n.e. i n.e</em></li>
+                            <li>zamienia cyfry arabskie na rzymskie;</li>
+                            <li>posługuje się nazwami epok historycznych oraz umieszcza je w czasie.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminami: <em>era, epoka historyczna</em>;</li>
+                            <li>podaje cezury czasowe epok historycznych.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>wyjaśnia okoliczności ustanowienia roku 1 i podziału na dwie ery.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>charakteryzuje główne epoki historyczne.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th><a href="./lekcji/lekcja05.html">5. Obliczanie czasu w historii</a></th>
+                    <td>
+                        <ul>
+                            <li>obliczanie upływu czasu między poszczególnymi wydarzeniami;</li>
+                            <li>określanie, w którym wieku doszło do danego wydarzenia;</li>
+                            <li>podział czasu na wieki i półwiecza.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>przy pomocy nauczyciela określa, w którym wieku miało miejsce dane wyda-rzenie;</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>samodzielnie określa, w którym wieku miało miejsce dane wydarzenie;</li>
+                            <li>oblicza upływ czasu między wydarzeniami w ramach jednej ery.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>określa początek i koniec wieku;</li>
+                            <li>poprawnie umiejscawia wydarzenia z obu er na osi czasu.</li>
+                            <li>oblicza upływ czasu między wydarzeniami w ramach obu er.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>oblicza upływ czasu między wydarzeniami, w tym na przełomie obu er.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>przyporządkowuje wyda¬rzenia do epok historycz¬nych.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th><a href="./lekcji/lekcja06.html">6. Czytamy mapę i plan</a></th>
+                    <td>
+                        <ul>
+                            <li>podobieństwa i różnice między mapą a planem;</li>
+                            <li>znaczenie mapy w pracy historyka;</li>
+                            <li>odczytywanie informacji z planu i mapy historycznej;</li>
+                            <li>najstarsze mapy świata.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>przy pomocy nauczyciela posługuje się terminami: <em>mapa, plan</em>;</li>
+                            <li>dostrzega różnice między mapą a planem.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminami: <em>legenda, symbol, skala</em>;</li>
+                            <li>odczytuje z mapy podsta-wowe informacje.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>objaśnia symbole legendy mapy historycznej;</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>rozróżnia mapę geograficz¬ną, polityczną, historyczną. </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>opisuje, jak zmieniały się mapy na przestrzeni dziejów</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th><a href="./lekcji/lekcjaPodsumow_I_Rodzaj.html">Podsumowanie I rodzaj</a></th>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        
+                    </td>
+                </tr>
+            </table>
+            <!-- Rozdział II: Od Piastów do Jagiellonów -->
+            <h6>Rozdział II: Od Piastów do Jagiellonów</h6>
+            <table>
+                <tr>
+                    <th>Temat lekcji</th>
+                    <th>Zagadnienia</th>
+                    <th>dopuszczająca</th>
+                    <th>dostateczna</th>
+                    <th>dobra</th>
+                    <th>bardzo dobra</th>
+                    <th>celująca</th>
+                </tr>
+                <tr>
+                    <th>1. Mieszko I i chrzest Polski</th>
+                    <td>
+                        <ul>
+                            <li>książę Mieszko I pierwszym historycznym władcą Polski;</li>
+                            <li>małżeństwo Mieszka I z Dobrawą;</li>
+                            <li>chrzest Mieszka I i jego znaczenie</li>
+                            <li>znaczenie terminów: <em>plemię Słowianie, Piastowie</em>.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>przy pomocy nauczyciela posługuje się terminami: <em>plemię, dynastia</em>;</li>
+                            <li>wie, kto był pierwszym historycznym władcą Polski.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminem <em>Piastowie</em>;</li>
+                            <li>wyjaśnia pochodzenie nazwy „Polska”.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminami: <em>Słowianie, poganin</em>;</li>
+                            <li>zna wydarzenia związane z datą 966.</li>
+                            <li>zna legendy traktujące o powstaniu Polski: O Lechu, Czechu i Rusie, O złym księciu Popielu, O gościnnym Piaście.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>wyjaśnia okoliczności zawarcia małżeństwa z Do¬brawą oraz przyjęcia chrztu przez Mieszka;</li>
+                            <li>przedstawia najważniejsze konsekwencje przyjęcia chrztu.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>wskazuje na mapie rozmieszczenie plemion słowiańskich na ziemiach polskich;</li>
+                            <li>charakteryzuje znaczenie przyjęcia chrześcijaństwa dla państwa polskiego.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th>2. . Bolesław Chrobry – pierwszy król Polski</th>
+                    <td>
+                        <ul>
+                            <li>misja świętego Wojciecha u Prusów;</li>
+                            <li>zjazd gnieźnieński i pielgrzymka cesarza Ottona III;</li>
+                            <li>wojny Bolesława Chrobrego z sąsiadami i przyłączenie nowych ziem;</li>
+                            <li>koronacja Bolesława Chrobrego na króla Polski;</li>
+                            <li>znaczenie terminów: <em>misja, relikwie, cesarz, arcybiskupstwo, biskupstwo, koronacja, gród, drużyna, wojowie</em></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>przy pomocy nauczyciela posługuje się terminami: <em>cesarz, koronacja, wojowie</em>;</li>
+                            <li>wie, kto był pierwszym królem Polski</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminami: <em>relikwie, gród, drużyna</em>;</li>
+                            <li>zna wydarzenia związane z datami: 1000, 1025;</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminami: <em>biskupstwo, arcybiskupstwo</em>;</li>
+                            <li>przedstawia przyczyny i skutki zjazdu gnieźnień-skiego.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>zna wydarzenia związane z datami: 1002–1018;</li>
+                            <li>wskazuje na mapie terytoria podbite przez Bolesława Chrobrego;</li>
+                            <li>wyjaśnia znaczenie korona¬cji Bolesława Chrobrego</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>ocenia skutki polityki wewnętrznej i zagranicznej Bolesława dla państwa polskiego.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th>* W średniowiecznym klasztorze</th>
+                    <td>
+                        <ul>
+                            <li>zakony chrześcijańskie;</li>
+                            <li>życie w klasztorze;</li>
+                            <li>wpływ zakonów na rozwój średniowiecznego rolnictwa;</li>
+                            <li>rola zakonów w rozwoju wiedzy i średniowiecznego piśmiennictwa;</li>
+                            <li>najstarsze zakony na ziemiach polskich i ich znaczenie;</li>
+                            <li>znaczenie terminów: <em>duchowieństwo, zakon, mnich, klasztor</em>.</li>
+                        </ul>
+                    </td>
+                    <td> 
+                        <ul>
+                            <li>przy pomocy nauczyciela posługuje się terminami: <em>duchowieństwo, zakon, mnich, klasztor</em>;</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>opisuje podstawowe zajęcia duchowieństwa zakonnego w średniowieczu i życie wewnątrz klasztoru. </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>podaje przykłady średniowiecznych zakonów.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminami: <em>reguła zakonna, skryptorium</em>;</li>
+                            <li>charakteryzuje wkład duchowieństwa w średnio¬wieczną kulturę</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>podaje przykłady współczesnych zakonów chrześcijańskich.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th>3. Polska Kazimierza Wielkiego </th>
+                    <td>
+                        <ul>
+                            <li>Kazimierz Wielki ostatnim królem z dynastii Piastów;</li>
+                            <li>reformy Kazimierza Wielkiego;</li>
+                            <li>zjazd monarchów w Krakowie – uczta u Wierzynka;</li>
+                            <li>umocnienie granic państwa <em>(Zastał Polskę drewnianą, a zostawił murowaną)</em>;</li>
+                            <li>utworzenie Akademii Krakowskiej;</li>
+                            <li>znaczenie terminu: <em>żak, uniwersytet</em>.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>przy pomocy nauczyciela posługuje się terminem: <em>uniwersytet, żak</em>;</li>
+                            <li>wyjaśnia, dlaczego historycy nadali królowi Kazimierzowi przydomek „Wielki”.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>zna wydarzenia związane z datami: 1364, 1370;</li>
+                            <li>wyjaśnia powiedzenie: <em>Zastał Polskę drewnianą, a zostawił murowaną</em>.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>wymienia główne reformy Kazimierza Wielkiego;</li>
+                            <li>wyjaśnia cele założenia oraz znaczenie utworzenia Akademii Krakowskiej;</li>
+                            <li>wskazuje na mapie ziemie przyłączone do Polski za panowania Kazimierza Wielkiego.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminem uczta u <em>Wierzynka</em>;</li>
+                            <li>opisuje zjazd monarchów w Krakowie.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>porównuje możliwości kształcenia w czasach Kazimierza Wielkiego a współcześnie</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th>* Rycerze i zamki </th>
+                    <td>
+                        <ul>
+                            <li>średniowieczni rycerze i ich rola;</li>
+                            <li>funkcje i wygląd zamków;</li>
+                            <li>od pazia do rycerza;</li>
+                            <li>uzbrojenie rycerskie;</li>
+                            <li>turnieje rycerskie;</li>
+                            <li>kodeks rycerski;</li>
+                            <li>znaczenie terminów: <em>rycerz, zamek, paź, giermek, pasowanie, herb, kopia, fosa</em>.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>przy pomocy nauczyciela posługuje się terminami: <em><rycerz/em> i <em>zamek</em>;</li>
+                            <li>opisuje wygląd średnio-wiecznego rycerza i zamku.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminami: <em>paź, giermek, pasowanie</em>;</li>
+                            <li>wyjaśnia, kto i w jaki sposób mógł zostać rycerzem.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminami: <em>herb, fosa, kopia, dziedziniec, zbrojownia, baszta</em>;</li>
+                            <li>charakteryzuje kodeks rycerski.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>podaje przykłady zachowanych zamków średniowiecznych w Polsce i w regionie.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>przedstawia przykłady wzorców rycerskich utrwalonych w literaturze i legendach</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th>4. Jadwiga i Jagiełło – unia polsko-litewska</th>
+                    <td>
+                        <ul>
+                            <li>objęcie władzy przez Jadwigę;</li>
+                            <li>zasługi Jadwigi dla polskiej kultury, nauki i sztuki;</li>
+                            <li>przyczyny zawarcia unii polsko-litewskiej w Krewie;</li>
+                            <li>okoliczności objęcia władzy w Polsce przez Władysława Jagiełłę;</li>
+                            <li>skutki zawarcia unii polsko-litewskiej;</li>
+                            <li>zagrożenie ze strony Krzyżaków;</li>
+                            <li>znaczenie terminów: <em>unia, Jagiellonowie</em>.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>przy pomocy nauczyciela posługuje się terminem <em>Jagiellonowie</em>;</li>
+                            <li>charakteryzuje postać <em>Jadwigi i Władysława Jagiełły</em>.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminem unia;</li>
+                            <li>zna wydarzenia związane z datą 1385;</li>
+                            <li>wskazuje na mapie Królestwo Polskie oraz obszar Wielkiego Księstwa Litewskiego.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>przedstawia okoliczności zawiązania unii polsko-litewskiej;</li>
+                            <li>wymienia postanowienia unii w Krewie.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>opisuje sytuację związaną z objęciem tronu polskiego po wygaśnięciu dynastii Piastów</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminem <em>Andegawenowie</em>;</li>
+                            <li>omawia zagrożenie ze strony zakonu krzyżackiego dla Polski i Litwy.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th>5. Bitwa pod Grunwaldem</th>
+                    <td><ul><li>bitwa pod Grunwaldem i biorący w niej udział rycerze.</li></ul></td>
+                    <td><ul><li>wie, kim był <em>Zawisza Czarny</em></li></ul></td>
+                    <td><ul><li>zna wydarzenia związane z datą 1410;</li></ul></td>
+                    <td>
+                        <ul>
+                            <li>przedstawia przyczyny wielkiej wojny z zakonem krzyżackim;</li>
+                            <li>opisuje przebieg bitwy pod Grunwaldem.</li>
+                        </ul>
+                    </td>
+                    <td><ul><li>charakteryzuje postać Ulricha von Jungingena.</li></ul></td>
+                    <td><ul><li>przedstawia skutki bitwy pod Grunwaldem oraz postanowienia pokoju toruńskiego.</li></ul></td>
+                </tr>
+                <tr>
+                    <th>6. Mikołaj Kopernik  – wielki astronom</th>
+                    <td>
+                        <ul>
+                            <li><em>Mikołaj Kopernik</em> i jego życie;</li>
+                            <li>odkrycie Mikołaja Kopernika i powiedzenie Wstrzymał Słońce i ruszył Ziemię;</li>
+                            <li>dokonania Kopernika spoza dziedziny astronomii;</li>
+                            <li>znaczenie terminu: <em>astronomia</em>.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>przy pomocy nauczyciela poprawnie posługuje się terminem <emastronomia></emastronomia>;</li>
+                            <li>wie, kim był Mikołaj Kopernik.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>wyjaśnia powiedzenie: <em>Wstrzymał Słońce i ruszył Ziemię</em>.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>wie, gdzie urodził się Mikołaj Kopernik oraz gdzie znajduje się jego grób;</li>
+                            <li>przedstawia poglądy na temat Ziemi i Układu Sło-necznego przed odkryciem Kopernika.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>poprawnie posługuje się terminami: <em>teoria geocentryczna i heliocentryczna</em>;</li>
+                            <li>przedstawia inne i zainteresowania Mikołaja Kopernika;</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>wyjaśnia, dlaczego najważ¬niejsze dzieło Kopernika zostało potępione przez Kościół.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <!-- Rozdział III: Wojny i upadek Rzeczypospolitej -->
+            <h6>Rozdział III: Wojny i upadek Rzeczypospolitej</h6>
+            <table>
+                <tr>
+                    <th>Temat lekcji</th>
+                    <th>Zagadnienia</th>
+                    <th>dopuszczająca</th>
+                    <th>dostateczna</th>
+                    <th>dobra</th>
+                    <th>bardzo dobra</th>
+                    <th>celująca</th>
+                </tr>
+            </table>
+        </div>
+        
+    </main>
+    <script src="../../script.js"></script>
+</body>
+
+</html>
