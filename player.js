@@ -1,22 +1,15 @@
-let player;
+document.addEventListener('click', function (e) {
+  if (e.target.classList.contains('time')) {
+    const time = parseInt(e.target.dataset.time);
+    const iframe = document.getElementById('player');
 
-    // 1. Загружаем YouTube iframe API
-    function onYouTubeIframeAPIReady() {
-      player = new YT.Player('player', {
-        height: '315',
-        width: '560',
-        videoId: 'CLIK2Vn6Lss',
-        playerVars: { 'rel': 0, 'showinfo': 0 }
-      });
+    // Извлекаем ID видео из src
+    const src = iframe.src;
+    const match = src.match(/embed\/([^?]+)/);
+    const videoId = match ? match[1] : null;
+
+    if (videoId) {
+      iframe.src = `https://www.youtube.com/embed/${videoId}?start=${time}&autoplay=1&rel=0`;
     }
-
-    // 2. Обрабатываем клики по таймкодам
-    document.addEventListener('click', function (e) {
-      if (e.target.classList.contains('time')) {
-        const time = parseInt(e.target.dataset.time);
-        if (player && player.seekTo) {
-          player.seekTo(time, true);
-          player.playVideo();
-        }
-      }
-    });
+  }
+});
