@@ -171,6 +171,12 @@ div{
 .p22{
     font-size: 22px;
 }
+.p20{
+    font-size: 20px;
+}
+.left{
+    margin-left: 100px;
+}
 
 .abzac{
     border: 2px solid rgb(146, 3, 3);
