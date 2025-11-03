@@ -27,13 +27,18 @@ body {
     background-color: blanchedalmond;
     padding-bottom: 10%;
 }
-hr{
+
+hr {
     width: 90%;
     margin: 1% auto;
-    height: 1px; /* толщина */
-    background-color: gray; /* цвет */
-    border: none; /* убираем стандартную границу */
+    height: 1px;
+    /* толщина */
+    background-color: gray;
+    /* цвет */
+    border: none;
+    /* убираем стандартную границу */
 }
+
 /* ====== HEADER ================ */
 header {
     display: flex;
@@ -66,7 +71,8 @@ ul>li {
     margin-left: 10%;
     padding: 0.5%;
 }
-.lis>a{
+
+.lis>a {
     padding: 2%;
     width: 96%;
     height: 100px;
@@ -77,7 +83,7 @@ ul>li {
 }
 
 
-ol{
+ol {
     margin-left: 5%;
     font-size: 18px;
     line-height: 1.5;
@@ -138,7 +144,8 @@ a:hover {
     padding: 5px;
     margin: 2% auto;
 }
-.prezent{
+
+.prezent {
     width: 80%;
     height: 54em;
     display: flex;
@@ -146,7 +153,8 @@ a:hover {
     padding: 5px;
     margin: 2% auto;
 }
-.pdf{
+
+.pdf {
     width: 60%;
     height: 54em;
     display: flex;
@@ -170,13 +178,16 @@ a:hover {
     margin: 2% auto;
     position: relative;
 }
-.imageTwo{
+
+.imageTwo {
     display: flex;
     max-width: 98%;
 }
-.imageTwo>img{
+
+.imageTwo>img {
     width: 50%;
 }
+
 .image>img {
     width: 80%;
     display: flex;
@@ -193,108 +204,142 @@ a:hover {
 /* DIV */
 
 .two {
-  display: flex;
-  width: 100%;
-  margin: 1%;
+    display: flex;
+    width: 100%;
+    margin: 1%;
 }
 
-.two > div {
-  flex: 1; /* Равномерно делит пространство (по 50%) */
-  padding: 1%;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* или 'space-evenly', если нужно */
+.two>div {
+    flex: 1;
+    /* Равномерно делит пространство (по 50%) */
+    padding: 1%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* или 'space-evenly', если нужно */
 }
+
+.fonHistoria {
+    width: 96%;
+    margin: 0 auto;
+    padding: 5px;
+    /* height: 50%; */
+    /* можешь изменить высоту под нужную */
+    background-image: url("https://avatars.mds.yandex.net/i?id=7546874d42f4c343349e3ba3298c77df82ca56fb-4471643-images-thumbs&n=13");
+    /* вставь свою ссылку */
+    background-size: cover;
+    /* растягивает картинку по всему div без искажений */
+    background-position: center;
+    /* центрирует изображение */
+    background-repeat: no-repeat;
+    /* не повторяет фон */
+
+}
+
+.fonHistoria>p {
+    font-size: 22px;
+}
+
 
 /* -------------- POKAZ OTWETA OPTIMA -------------*/
 .hint2-container {
-   background-color: #d7e5f0;
-   border-radius: 10px;
-   border: 1px solid #b9d6f3;
-   padding: 2px 5px;
-   margin: 10px auto;
-   cursor: pointer;
-   width: 90%;
-   position: relative;
-   overflow: hidden;
+    background-color: #d7e5f0;
+    border-radius: 10px;
+    border: 1px solid #b9d6f3;
+    padding: 2px 5px;
+    margin: 10px auto;
+    cursor: pointer;
+    width: 90%;
+    position: relative;
+    overflow: hidden;
 }
 
 /* Заголовок блока */
 .hint2-header {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   position: relative;
-   font-size: 21px;
-   color: #1c7505;
-   /* font-weight: 600; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-size: 21px;
+    color: #1c7505;
+    /* font-weight: 600; */
 }
 
 /* Контент с текстом */
 .hint2-content {
-   max-height: 0;
-   overflow: hidden;
-   transition: max-height 0.6s ease-in-out, padding 0.3s ease-in-out;
-   padding: 0 2px 0 2px;
-   opacity: 0; /* Для плавного появления и исчезновения текста */
-   transition: opacity 0.3s ease-in-out, max-height 0.6s ease-in-out, padding 0.6s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease-in-out, padding 0.3s ease-in-out;
+    padding: 0 2px 0 2px;
+    opacity: 0;
+    /* Для плавного появления и исчезновения текста */
+    transition: opacity 0.3s ease-in-out, max-height 0.6s ease-in-out, padding 0.6s ease-in-out;
 }
-.hint2-content p{
-   font-size: 18px;
+
+.hint2-content p {
+    font-size: 18px;
 }
 
 
 /* Раскрытие блока */
 .hint2-container.active .hint2-content {
-   padding: 0 2px 5px 2px;
-   max-height: 100000px; /* Достаточно для раскрытия текста */
-   opacity: 1; /* Плавное появление */
-   max-width: 100%;
+    padding: 0 2px 5px 2px;
+    max-height: 100000px;
+    /* Достаточно для раскрытия текста */
+    opacity: 1;
+    /* Плавное появление */
+    max-width: 100%;
 }
+
 /* Czest 2 raskrytia bloka */
 .h-container {
-   background-color: #e8f4fd;
-   border-radius: 10px;
-   border: 1px solid #b9d6f3;
-   padding: 5px 20px;
-   margin: 20px auto;
-   cursor: pointer;
-   width: 98%;
-   position: relative;
-   overflow: hidden;
+    background-color: #e8f4fd;
+    border-radius: 10px;
+    border: 1px solid #b9d6f3;
+    padding: 5px 20px;
+    margin: 20px auto;
+    cursor: pointer;
+    width: 98%;
+    position: relative;
+    overflow: hidden;
 }
 
 /* Заголовок блока */
 .h-header {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   position: relative;
-   font-size: 24px;
-   color: #230575;
-   font-weight: 600;
-   text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-size: 24px;
+    color: #230575;
+    font-weight: 600;
+    text-align: center;
 }
+
 .h-content {
-   max-height: 0;
-   overflow: hidden;
-   transition: max-height 0.6s ease-in-out, padding 0.3s ease-in-out;
-   padding: 0 2px 0 2px;
-   opacity: 0; /* Для плавного появления и исчезновения текста */
-   transition: opacity 0.3s ease-in-out, max-height 0.6s ease-in-out, padding 0.6s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease-in-out, padding 0.3s ease-in-out;
+    padding: 0 2px 0 2px;
+    opacity: 0;
+    /* Для плавного появления и исчезновения текста */
+    transition: opacity 0.3s ease-in-out, max-height 0.6s ease-in-out, padding 0.6s ease-in-out;
 }
-.h-content p{
-   font-size: 22px;
+
+.h-content p {
+    font-size: 22px;
 }
 
 /*  */
 /* Раскрытие блока */
 .h-container.active .h-content {
-   padding: 0 2px 5px 2px;
-   max-height: 1000000px; /* Достаточно для раскрытия текста */
-   opacity: 1; /* Плавное появление */
-   max-width: 100%;
+    padding: 0 2px 5px 2px;
+    max-height: 1000000px;
+    /* Достаточно для раскрытия текста */
+    opacity: 1;
+    /* Плавное появление */
+    max-width: 100%;
 }
 
 
@@ -308,45 +353,55 @@ a:hover {
 }
 
 .zoomable.zoomed {
-    transform: scale(1.5); /* увеличиваем картинку в 2 раза */
+    transform: scale(1.5);
+    /* увеличиваем картинку в 2 раза */
     z-index: 999;
-    position:absolute;
+    position: absolute;
     margin: 0 auto;
     left: 25%;
 }
 
 /*  */
 
-    .icon {
-      background-color: antiquewhite;
-      width: 170px;
-      height: 260px;
-      margin: 2% auto;
-      display: flex;              /* включаем flex */
-      flex-direction: column;     /* элементы сверху вниз */
-      justify-content: center;    /* центрируем по вертикали */
-      align-items: center;        /* центрируем по горизонтали */
-      text-align: center;
-    }
+.icon {
+    background-color: antiquewhite;
+    width: 170px;
+    height: 260px;
+    margin: 2% auto;
+    display: flex;
+    /* включаем flex */
+    flex-direction: column;
+    /* элементы сверху вниз */
+    justify-content: center;
+    /* центрируем по вертикали */
+    align-items: center;
+    /* центрируем по горизонтали */
+    text-align: center;
+}
 
-    .icon > a > img {
-      width: 60%;   /* пропорционально */
-      height: auto;
-      margin: 20px 0 0 0;    /* убираем лишние отступы */
-    }
+.icon>a>img {
+    width: 60%;
+    /* пропорционально */
+    height: auto;
+    margin: 20px 0 0 0;
+    /* убираем лишние отступы */
+}
 
-    .icon > p {
-      margin: 5px 0 30px 0; /* чуть отступа сверху */
-      text-align: center;
-    }
-.audio{
+.icon>p {
+    margin: 5px 0 30px 0;
+    /* чуть отступа сверху */
+    text-align: center;
+}
+
+.audio {
     display: flex;
     width: 30%;
     margin: 1% auto;
 }
+
 /* table */
 
-table{
+table {
     border: 1px solid black;
     width: 96%;
     margin: 1% auto;
@@ -354,42 +409,50 @@ table{
     border-collapse: collapse;
     font-size: 18px;
 }
-th,td{
+
+th,
+td {
     border: 1px solid black;
-     padding: 0.5%;
-     width: 10%;
-     max-width: 14%;
+    padding: 0.5%;
+    width: 10%;
+    max-width: 14%;
 }
-td>ul>li{
-     font-size: 13px;
+
+td>ul>li {
+    font-size: 13px;
 }
-td>ul>li>em{
-     color: blue;
+
+td>ul>li>em {
+    color: blue;
 }
-table{
+
+table {
     text-align: center;
 }
-th{
+
+th {
     background-color: rgb(215, 229, 224);
 }
-td{
+
+td {
     background-color: rgb(230, 206, 192);
 }
 
 /* FLEX */
-.flex{
+.flex {
     display: flex;
     width: 100%;
     gap: 3px;
 }
-.flex>div{
+
+.flex>div {
     width: 100%;
 }
 
-.okno{
+.okno {
     display: inline-block;
-  width: 50px;
-  height: 25px;
-  border: 2px solid black;
-  vertical-align: middle;
+    width: 50px;
+    height: 25px;
+    border: 2px solid black;
+    vertical-align: middle;
 }
