@@ -170,9 +170,12 @@ div{
 }
 .p22{
     font-size: 22px;
+    margin: 4px;
+    padding: 4px;
 }
 .p20{
     font-size: 20px;
+    padding: 4px;
 }
 .left{
     margin-left: 100px;
