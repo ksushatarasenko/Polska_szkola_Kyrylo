@@ -189,3 +189,10 @@ div{
 .ol>li, .ul>li{
     font-size: 18px;
 }
+
+.site>a>img{
+    width: 10%;
+}
+.site>a{
+    color: rgb(185, 24, 213);
+}
