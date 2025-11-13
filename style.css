@@ -193,6 +193,20 @@ a:hover {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+/* Класс при увеличении */
+.image > img.zoomed {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 95%; /* 80% × 1.4 = 112% (на 40% больше) */
+    max-width: none;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.7);
 }
 
 .video>iframe {
