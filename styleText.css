@@ -97,7 +97,7 @@ div{
 .text{
     border: 3px rgb(3, 92, 3) solid;
     padding: 1%;
-    width: 84%;
+    width: 90%;
     margin: 1% auto;
     
 }
@@ -109,6 +109,18 @@ div{
     font-size: 17px;
     margin-top: -10px;
 }
+.text>.video{
+    width: 100%;
+}
+.blokText{
+    padding: 0 5%;
+}
+.blokText>p{
+    font-size: 21px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 
 .bordGreen{
     border: 2px green solid;
