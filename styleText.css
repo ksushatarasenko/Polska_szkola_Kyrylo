@@ -208,3 +208,8 @@ div{
 .site>a{
     color: rgb(185, 24, 213);
 }
+
+.italic{
+    font-size: 20px;
+    font-style: italic;
+}
