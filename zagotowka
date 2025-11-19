@@ -28,3 +28,17 @@
 
 
 <h2 class="site"><a href="" target="_blank" >Jak mierzymy czas? <img src="../../../image/site.png" alt=""></a></h2>
+
+
+<!-- мигающая стрелочка -->
+        <div class="training-button">
+            <a href="https://example.com" class="cta-button">
+                <img src="https://upupenglish.ru/posessive-adjectives/" alt="" target="_blank">
+                Тренировать 8 слов
+            </a>
+
+
+            <!-- мигающая стрелочка -->
+            <span class="attention-arrow">➤</span>
+        </div>
+        <!--  -->
