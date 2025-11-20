@@ -42,3 +42,8 @@
             <span class="attention-arrow">➤</span>
         </div>
         <!--  -->
+
+; AUDIO
+
+ <li><span class="play-audio" data-audio="">🔊 young </span>— молодой</li>
+                    <li><span class="play-audio" data-audio="">🔊 old</span> — старый</li>
