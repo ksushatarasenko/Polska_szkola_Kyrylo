@@ -175,7 +175,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 2% auto;
+    margin: 1% auto;
     position: relative;
 }
 
@@ -185,7 +185,7 @@ a:hover {
 }
 
 .imageTwo>img {
-    width: 50%;
+    width: 100%;
 }
 
 .image>img {
@@ -201,7 +201,7 @@ a:hover {
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 95%; /* 80% × 1.4 = 112% (на 40% больше) */
+    width: 50%; /* 80% × 1.4 = 112% (на 40% больше) */
     max-width: none;
     transform: translate(-50%, -50%);
     z-index: 9999;
@@ -361,7 +361,7 @@ a:hover {
 
 /* ---------- END POKAZ OTWETA OPTIMA ------------------ */
 
-.zoomable {
+/* .zoomable {
     cursor: pointer;
     transition: transform 0.3s ease;
     position: relative;
@@ -369,12 +369,11 @@ a:hover {
 
 .zoomable.zoomed {
     transform: scale(1.5);
-    /* увеличиваем картинку в 2 раза */
     z-index: 999;
     position: absolute;
     margin: 0 auto;
     left: 25%;
-}
+} */
 
 /*  */
 
@@ -470,4 +469,64 @@ td {
     height: 25px;
     border: 2px solid black;
     vertical-align: middle;
+}
+/*  */
+.spread {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.page img {
+    width: 45vw;        /* каждая страница занимает 45% ширины окна */
+    max-width: 100%;   /* ограничение, чтобы не становились огромными */
+    cursor: pointer;
+    transition: transform 0.35s ease, opacity 0.35s ease;
+}
+
+/* Зум */
+.page img.zoomed {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: auto;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    z-index: 10001;
+    max-width: none;
+     /* Главное: картинка не обрезается */
+    max-width: 100vw;
+    max-height: 100vh;
+    width: auto;
+    height: auto;
+
+    /* Убираем ограничения обычного режима */
+    object-fit: contain;
+}
+
+/* Состояние перед закрытием */
+.page img.zoomed.closing {
+    transform: translate(-50%, -50%) scale(0.8);
+    opacity: 0;
+}
+
+/* Затемнение */
+.zoom-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 10000;
+    opacity: 1;
+    transition: opacity 0.35s ease;
+}
+
+/* Плавное исчезновение затемнения */
+.zoom-overlay.closing {
+    opacity: 0;
 }

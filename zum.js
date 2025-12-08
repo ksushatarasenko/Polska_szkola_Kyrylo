@@ -10,3 +10,26 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+
+document.querySelectorAll('.page img').forEach(img => {
+    img.addEventListener('click', () => {
+
+        if (img.classList.contains('zoomed')) {
+            img.classList.remove('zoomed');
+            document.querySelector('.zoom-overlay')?.remove();
+            return;
+        }
+
+        const overlay = document.createElement('div');
+        overlay.className = 'zoom-overlay';
+        document.body.appendChild(overlay);
+
+        img.classList.add('zoomed');
+
+        overlay.addEventListener('click', () => {
+            img.classList.remove('zoomed');
+            overlay.remove();
+        });
+    });
+});
