@@ -170,9 +170,15 @@ div{
     text-transform: uppercase;
 }
 .p35{
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
     text-transform: uppercase;
+}
+.p24{
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 .p25{
     font-size: 25px;
