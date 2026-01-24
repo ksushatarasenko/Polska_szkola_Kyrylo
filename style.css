@@ -485,7 +485,7 @@ td {
     max-width: 100%;   /* ограничение, чтобы не становились огромными */
     cursor: pointer;
     transition: transform 0.35s ease, opacity 0.35s ease;
-    
+    margin: 0 auto;
 }
 .page{
     margin: 0 auto;
