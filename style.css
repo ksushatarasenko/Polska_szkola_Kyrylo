@@ -481,7 +481,7 @@ td {
 }
 
 .page img {
-    width: 45vw;        /* каждая страница занимает 45% ширины окна */
+    width: 100%;        /* каждая страница занимает 45% ширины окна */
     max-width: 100%;   /* ограничение, чтобы не становились огромными */
     cursor: pointer;
     transition: transform 0.35s ease, opacity 0.35s ease;
@@ -489,7 +489,8 @@ td {
 }
 .page{
     margin: 0 auto;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* Зум */

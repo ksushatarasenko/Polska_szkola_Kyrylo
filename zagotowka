@@ -47,3 +47,25 @@
 
  <li><span class="play-audio" data-audio="">🔊 young </span>— молодой</li>
                     <li><span class="play-audio" data-audio="">🔊 old</span> — старый</li>
+
+; Русский перевод
+
+<p class="p20">
+    <span class="modal-word" data-modal="mieszko">
+        Mieszko I
+    </span>
+    zjednoczył te plemiona i stworzył pierwsze państwo polskie.
+</p>
+
+<button class="ru-btn modal-trigger" data-modal="mieszko">RU</button>
+
+<div class="modal" data-modal="mieszko">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h4>Мешко I</h4>
+        <p>
+            Первый исторический правитель Польши,
+            основатель государства и династии Пястов.
+        </p>
+    </div>
+</div>
