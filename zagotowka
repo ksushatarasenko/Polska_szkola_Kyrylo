@@ -57,9 +57,9 @@
     zjednoczył te plemiona i stworzył pierwsze państwo polskie.
 </p>
 
-<button class="ru-btn modal-trigger" data-modal="mieszko">RU</button>
+<button class="ru-btn modal-trigger" data-modal="ru_1">RU</button>
 
-<div class="modal" data-modal="mieszko">
+<div class="modal" data-modal="ru_1">
     <div class="modal-content">
         <span class="close">&times;</span>
         <h4>Мешко I</h4>
