@@ -189,13 +189,17 @@ a:hover {
     width: 100%;
 }
 
-.image>img {
+.image>img, .imageFree>img {
     width: 80%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     cursor: pointer;
     transition: all 0.4s ease;
+}
+.imageFree{
+    width: 100%;
+    position: absolute;
 }
 /* Класс при увеличении */
 .image > img.zoomed {
@@ -223,6 +227,7 @@ a:hover {
     width: 100%;
     margin: 1%;
     align-items: center;
+    position: relative;
 }
 
 .two>div {
@@ -234,6 +239,7 @@ a:hover {
     flex-direction: column;
     justify-content: space-between;
     /* или 'space-evenly', если нужно */
+    
 }
 
 .fonHistoria {
