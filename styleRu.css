@@ -25,15 +25,23 @@
     padding: 20px;
     max-width: 600px;
     width: 90%;
+    max-height: 80vh;        /* 👈 ограничение по высоте */
+    overflow-y: auto;        /* 👈 вертикальная прокрутка */
     border-radius: 8px;
     position: relative;
 }
 
 .close {
-    position: absolute;
-    top: 8px;
-    right: 12px;
+    position: sticky;        /* чтобы крестик был виден при прокрутке */
+    top: 0;
+    float: right;
     cursor: pointer;
+    background: #fff;
+    padding: 4px 8px;
+    z-index: 10;
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .modal-word {
