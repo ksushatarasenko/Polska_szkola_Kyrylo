@@ -152,6 +152,12 @@ div{
     padding: 3px;
     border-radius: 8px; /* скруглённые углы, если нужно */
 }
+
+.prawilo>p{
+    font-size: 26px;
+    margin: 1%;
+}
+
 .fonOrang{
     border: 2px solid orange;
     background-color: #f4d3a8; /* нежно-жёлтый фон */
