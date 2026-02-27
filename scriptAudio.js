@@ -17,3 +17,21 @@ function setTime(event, seconds) {
     audio.play();
   }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const player = document.getElementById("player");
+
+  document.addEventListener("click", function(e) {
+    const button = e.target.closest(".play-audio");
+    if (!button) return;
+
+    const src = button.dataset.audio;
+
+    if (src) {
+      player.src = src;
+      player.play();
+    }
+  });
+
+});
