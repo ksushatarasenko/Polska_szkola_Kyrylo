@@ -69,3 +69,7 @@
         </p>
     </div>
 </div>
+
+
+; дробь
+<math xmlns="http://www.w3.org/1998/Math/MathML" class="p24 weight"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> - одна четверть

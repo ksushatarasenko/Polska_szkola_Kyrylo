@@ -252,3 +252,27 @@ div{
 .wierszRight, .wierszLeft{
     width: 90%;
 }
+
+
+/* ДРОБЬ */
+.fraction {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Times New Roman", serif;
+  font-size: 40px;
+  line-height: 1;
+}
+
+.fraction .top {
+  padding: 0 12px 4px 12px;
+}
+
+.fraction .line {
+  width: 100%;
+  border-top: 2.5px solid black;
+}
+
+.fraction .bottom {
+  padding: 4px 12px 0 12px;
+}
