@@ -386,6 +386,9 @@ background:#fff8e6;
 margin:6px 0;
 }
 
+.box>p{
+    font-size: 20px;
+}
 
 /* мобильная адаптация */
 

@@ -1,35 +1,25 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const img = document.querySelector(".image > img");
-    
-    img.addEventListener("click", function() {
-        img.classList.toggle("zoomed");
-        if (img.classList.contains("zoomed")) {
-            document.body.style.overflow = "hidden"; // блокируем прокрутку
-        } else {
-            document.body.style.overflow = "auto"; // возвращаем прокрутку
-        }
-    });
-});
+document.addEventListener("click", function(e) {
 
+    const img = e.target.closest(".zum");
 
-document.querySelectorAll('.page img').forEach(img => {
-    img.addEventListener('click', () => {
+    // если клик по картинке
+    if (img) {
 
-        if (img.classList.contains('zoomed')) {
-            img.classList.remove('zoomed');
-            document.querySelector('.zoom-overlay')?.remove();
-            return;
-        }
+        const overlay = document.createElement("div");
+        overlay.classList.add("image-overlay");
 
-        const overlay = document.createElement('div');
-        overlay.className = 'zoom-overlay';
+        const bigImg = document.createElement("img");
+        bigImg.src = img.src;
+
+        overlay.appendChild(bigImg);
         document.body.appendChild(overlay);
 
-        img.classList.add('zoomed');
+        return;
+    }
 
-        overlay.addEventListener('click', () => {
-            img.classList.remove('zoomed');
-            overlay.remove();
-        });
-    });
+    // если клик по затемнению — закрыть
+    if (e.target.classList.contains("image-overlay")) {
+        e.target.remove();
+    }
+
 });
