@@ -1,0 +1,256 @@
+
+hr {
+    width: 90%;
+    margin: 1% auto;
+    height: 1px;
+    /* толщина */
+    background-color: gray;
+    /* цвет */
+    border: none;
+    /* убираем стандартную границу */
+}
+
+
+/* NEW */
+.lesson{
+max-width:1000px;
+margin:auto;
+font-family: "Segoe UI", Arial, sans-serif;
+line-height:1.6;
+color:#333;
+padding:20px;
+background-color: rgb(239, 189, 189);
+border-radius: 15px;
+box-shadow:0 3px 8px rgba(0,0,0,0.08);
+
+}
+
+
+/* Секции урока */
+.lesson-section{
+margin-top:30px;
+padding:15px;
+background-color: rgb(239, 198, 198);
+border-radius: 15px;
+box-shadow:0 3px 8px rgba(0,0,0,0.08);
+font-size: 20px;
+}
+
+
+/* Выделенный текст (как в учебнике) */
+
+/* Списки */
+.lesson ul{
+padding-left:20px;
+}
+
+.lesson li{
+margin:8px 0;
+font-size:20px;
+}
+/* Карточки изображений */
+.image-card{
+/* background:#f9f9f9; */
+border-radius:12px;
+overflow:hidden;
+margin:20px 0;
+box-shadow:0 3px 8px rgba(0,0,0,0.08);
+text-align:center;
+}
+
+.image-card img{
+width:100%;
+display:block;
+}
+
+.image-card p{
+padding:10px 14px;
+font-size:16px;
+color:#555;
+}
+/* Ряд из нескольких картинок */
+.image-row{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.image-row .image-card{
+flex:1;
+min-width:280px;
+}
+/* Блок "Warto wiedzieć" */
+.info-box{
+background:#f3f8f4;
+border-left:6px solid #2e7d32;
+padding:15px 20px;
+margin:25px 0;
+border-radius:6px;
+}
+
+.info-box h3{
+margin-top:0;
+color:#2e7d32;
+}
+/* Блок "To najważniejsze" */
+.summary{
+background:#fff8e1;
+border:2px solid #ffb74d;
+border-radius:10px;
+padding:20px;
+margin:30px 0;
+}
+
+.summary h3{
+color:#ef6c00;
+margin-top:0;
+}
+
+.summary ul{
+margin-top:10px;
+}
+/* Блок вопросов */
+.questions{
+margin-top:40px;
+padding:20px;
+border-top:2px solid #ddd;
+}
+
+.questions h3{
+color:#ef6c00;
+}
+
+.questions ol{
+padding-left:20px;
+}
+
+.questions li{
+margin:10px 0;
+font-size:20px;
+}
+/* Блок "Krok po kroku" */
+.step-box{
+background:#e8f5e9;
+border-left:6px solid #43a047;
+padding:20px;
+border-radius:8px;
+margin:25px 0;
+}
+/* Адаптация для телефона */
+@media (max-width:768px){
+
+.lesson{
+padding:15px;
+}
+
+.lesson h1{
+font-size:28px;
+}
+
+.lesson-section h2{
+font-size:22px;
+}
+
+.image-row{
+flex-direction:column;
+}
+
+}
+/* style podsumowanie */
+.lesson-summary h1{
+font-size:36px;
+margin-bottom:30px;
+}
+
+.summary-section{
+margin:40px 0;
+position:relative;
+}
+
+.summary-number{
+background:#ff9800;
+color:white;
+width:30px;
+height:30px;
+border-radius:6px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:bold;
+margin-bottom:10px;
+}
+
+.health-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
+gap:15px;
+}
+
+.health-card{
+border:2px solid #ffb74d;
+width: 400px;
+border-radius:10px;
+padding:15px;
+background:#fffaf0;
+text-align:center;
+}
+
+.summary-table{
+width:100%;
+border-collapse:collapse;
+margin-top:15px;
+}
+
+.summary-table th{
+background:#ffe0b2;
+padding:10px;
+font-size: 22px;
+}
+
+.summary-table td{
+border:1px solid #ddd;
+padding:10px;
+font-size: 20px;
+}
+
+.parasite-grid{
+display:flex;
+gap:20px;
+}
+
+.parasite-card{
+flex:1;
+border:2px solid #ffb74d;
+padding:15px;
+border-radius:10px;
+background:#fffaf0;
+}
+
+.emergency-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:15px;
+}
+
+.emergency-card{
+background:#fff3e0;
+padding:15px;
+border-radius:10px;
+text-align:center;
+font-size:20px;
+}
+
+/*  */
+img.wp-smiley, img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 0.07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
