@@ -73,3 +73,12 @@
 
 ; дробь
 <math xmlns="http://www.w3.org/1998/Math/MathML" class="p35 weight"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> - одна четверть
+
+<!-- ссылка картинки с гитхаба -->
+https://raw.githubusercontent.com/ksushatarasenko/polishSzkola_4klasa_assets/main/przyroda/rozdial6/str152_4.png
+
+<img src="https://cdn.jsdelivr.net/gh/ksushatarasenko/polishSzkola_4klasa_assets@main/przyroda/rozdial6/str152_4.png"
+     alt="152_4" class="zum">
+
+     <!-- иконка интернет -->
+<img src="https://s1.iconbird.com/ico/2013/10/471/w256h2561383075043NetworkEntireicon.png" alt="" style="width: 40px;">

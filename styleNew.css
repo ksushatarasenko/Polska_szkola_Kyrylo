@@ -153,6 +153,7 @@ border-radius: 15px;
     width: 65%;
     margin: 0 auto;
     color: #333;
+    text-indent: 0px;
 }
 .wartoWiedzic{
 /* padding:20px; */
@@ -303,3 +304,13 @@ img.wp-smiley, img.emoji {
     padding: 0 !important;
 }
 
+/* зеленый маркер списка */
+.greenUl {
+    padding-left: 5px;
+}
+
+.greenUl li::marker {
+    color: #4CAF50;
+    font-size: 1.5em;
+}
+/*  */
