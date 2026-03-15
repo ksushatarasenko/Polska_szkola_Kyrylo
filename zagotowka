@@ -82,3 +82,8 @@ https://raw.githubusercontent.com/ksushatarasenko/polishSzkola_4klasa_assets/mai
 
      <!-- иконка интернет -->
 <img src="https://s1.iconbird.com/ico/2013/10/471/w256h2561383075043NetworkEntireicon.png" alt="" style="width: 40px;">
+
+
+<!-- перевод слова при наведении -->
+<span class="word" onclick="this.classList.toggle('show')"> Punkt 
+<span class="translate">точка</span> </span>
