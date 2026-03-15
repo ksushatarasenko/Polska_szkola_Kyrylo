@@ -1,17 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lekcja26</title>
+
+    <title>Lekcja – Mierzenie długości</title>
     <link rel="stylesheet" href="../../../../style.css">
+    <link rel="stylesheet" href="../../../../styleNew.css">
     <link rel="stylesheet" href="../../../../styleText.css">
-    <link rel="stylesheet" href="../../../../styleRu.css">
+
+
+    <style>
+        
+        .info {
+            background: #e8f4ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .units {
+            background: #eef9ff;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        svg {
+            margin-top: 15px;
+        }
+    </style>
+
 </head>
 
 <body>
-    <header>
+     <header>
 
         <ul class="header">
             <li><a href="../../../polska/indexPolska.html">Język polski</a></li>
@@ -21,145 +46,225 @@
             <li><a href="../../../lektura/indexLektura.html">Lektura</a></li>
         </ul>
     </header>
-    <main class="wrapper">
+
+    <div class="wrapper">
+
         <h1>Matematyka</h1>
-        <h2>4. Figury geometryczne - część 1</h2>
-        <h3>Lekcja 25. Proste, odcinki i punkty / 8-12</h3>
-        <div class="flex">
-            <div style="line-height: 0.2;">
-                <h5>📘 1. Punkt (точка)</h5>
-                <p class="p20"><b>Punkt</b> — это просто <b>место на плоскости</b>.</p>
-                <p class="p20">Он <b>не имеет ни длины, ни ширины</b> — это просто <b>одна позиция</b>.</p>
-                <p class="p22"><b>✏️ Пример:</b></p>
-                <p class="p20">Если ты ставишь карандашом маленькую точку на бумаге — это и есть <b
-                        class="red">punkt</b>.</p>
-                <p class="p20">Обычно точки называют <b>буквами</b>:</p>
-                <p class="p20">👉 Punkt <b>A</b>, punkt <b>B</b>, punkt <b>C</b>.</p>
-            </div>
-            <div>
-                <p class="p22"><b class="red">Punkt</b> – jednym z podstawowych pojęć w geometrii jest punkt. Zwykle
-                    zaznaczamy go <b>kropką</b> i <boznaczamy wielką literą></boznaczamy>.</p>
-                <div class="image" style="width: 60%;">
-                    <img src="https://static.zpe.gov.pl/portal/f/res-minimized/R1CajvWBirhYN/1642765421/sGtuZXsfQuHPwkGSHm7UY1E9x70QAHMe.svg"
-                        alt="" class="zoomable">
-                </div>
-            </div>
-        </div>
-        <!-- prosta -->
-        <div class="flex">
-            <div style="line-height: 0.2;">
-                <h5>📏 2. Prosta (прямая)</h5>
-                <p class="p20"><b>Prosta</b> — это <b>линия без начала и конца</b>, она <b>идёт бесконечно</b> в обе
-                    стороны.</p>
-                <p class="p20">Мы не можем нарисовать всю прямую, потому что она бесконечна,
-                    поэтому рисуем только <b>её часть</b> и показываем <b>стрелочки на концах</b>.</p>
-                <p class="p22"><b>✏️ Пример:</b></p>
-                <p class="p25">↔────────↔</p>
-                <p class="p20"></p>
-                <p class="p20"></p>
-            </div>
-            <div>
-                <p class="p22"><b class="red">Prosta</b>
-                <ul>
-                    <li>Prosta <b>nie ma początku ani końca</b>.</li>
-                    <li>Prostą oznaczamy <b>małą literą</b>.</li>
-                </ul>
-                </p>
-                <p class="p20"><b class="red">Prosta</b> - to linia prosta nieograniczona z obu stron.</p>
+        <h2>Figury geometryczne</h2>
 
-                <div class="image" style="width: 50%;">
-                    <img src="https://staticskul.iplsc.com/skul_production_2023_03_01/fc1ca26a3b432bf8a0d990d3a3e49db5-content.png"
-                        alt="" class="zoomable">
-                </div>
-            </div>
-        </div>
-        <div>
-            <p class="p22 violet">1. Przez jeden punkt można poprowadzić nieskończenie wiele prostych.</p>
-            <div class="image" style="width: 50%;">
-                <img src="https://aleklasa.pl/wp-content/uploads/2016/10/punkt-i-proste.png" alt="" class="zoomable">
-            </div>
-            <p class="p22 violet">2. Przez dwa różne punkty A i B można poprowadzić tylko jedną prostą. Prostą
-                przechodzącą przez dwa różne punkty A i B oznaczamy prostą AB.</p>
-            <div class="image" style="width: 20%;">
-                <img src="https://img.zadania.info/zad/2821350/HzadR0x.gif" alt="" class="zoomable">
-            </div>
-        </div>
-        <!-- półprosta -->
-        <div class="flex">
-            <div>
-                <h5>3. Półprosta</h5>
-                <p class="p20">Półprosta to część prostej, która jest ograniczona z jednej strony przez <b>punkt (zwany
-                        początkiem półprostej</b>), ale <b>jest nieograniczona z drugiej strony</b>.</p>
-                <p class="p20">Oznacza to, że ma punkt początkowy, ale nie ma punktu końcowego i ciągnie się w
-                    nieskończoność. </p>
-            </div>
-            <div>
-                <div class="image" style="width: 70%;">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Prosta_polprosta_odcinek2.svg/1200px-Prosta_polprosta_odcinek2.svg.png"
-                        alt="" class="zoomable">
-                </div>
-            </div>
-        </div>
-        <!-- odcinek -->
-        <div class="flex">
-            <div style="line-height: 0.2;">
-                <h5>📐 3. Odcinek (отрезок)</h5>
-                <p class="p20"><b>Odcinek</b> — это часть прямой, имеет начало и конец.</p>
-                <p class="p20">Он начинается в одной точке и заканчивается в другой.</p>
-                <p class="p22"><b>✏️ Пример:</b></p>
+        <h2>Lekcja 2</h2>
 
-                <p class="p20">Это odcinek AB (отрезок AB). Punkty A i B nazywamy nazywamy końcami odcinka. Końce
-                    odcinków oznaczamy wielkimi literami alfabetu,natomiast odcinek możemy oznaczać małymi literami.</p>
-                <p class="p20">Отрезок можно измерить линейкой — он имеет длину.</p>
-            </div>
-            <div>
-                <div class="image" style="width: 70%;">
-                    <img src="https://www.medianauka.pl/matematyka/grafika/miniatury/odcinek.jpg" alt=""
-                        class="zoomable">
-                </div>
-            </div>
-        </div>
+        <h2>Mierzenie długości</h2>
 
-        <div class="video">
-            <iframe title="vimeo-player" src="https://player.vimeo.com/video/288689268?h=01b1018149" width="640"
-                height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"
-                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-                allowfullscreen></iframe>
-        </div>
-        <h3>Proste🔹Półproste🔹Odcinki🔹Łamane </h3>
-        <div class="page" style="width: 60%;">
-            <img src="https://github.com/ksushatarasenko/polishSzkola_4klasa_assets/blob/main/matematyka/teamat4/matem_4_1_1.png?raw=true"
-                alt="">
-        </div>
-        <div class="page" style="width: 60%;">
-            <img src="https://github.com/ksushatarasenko/polishSzkola_4klasa_assets/blob/main/matematyka/teamat4/prosta_odcinek_ka%CC%A8t.jpeg?raw=true"
-                alt="">
-        </div>
-        <div>
-            <h2 class="site"><a
-                    href="https://www.eduelo.pl/quizy/poziom-iv/matematyka/figury-geometryczne/punkt-prosta-polprosta-odcinek/"
-                    target="_blank">Eduelo - Punkt, prosta, półprosta, odcinek <img src="../../../../image/eduelo.png"
-                        alt=""></a></h2>
-        </div>
-        <div>
-            <h2 class="site"><a href="https://zpe.gov.pl/a/podstawowe-figury-geometryczne/D8dfuXoO9"
-                    target="_blank">Podstawowe figury geometryczne<img src="../../../../image/site.png" alt=""></a></h2>
+
+        <div class="lesson">
+
+            <h3>Do czego służy mierzenie długości?</h3>
+
+            <p>
+                W życiu codziennym często mierzymy różne długości.
+                Mierzymy długość stołu, zeszytu, ołówka, drogi lub pokoju.
+            </p>
+
+            <p>
+                Do mierzenia długości używa się różnych przyrządów:
+            </p>
+
+            <ul>
+                <li>linijka</li>
+                <li>taśma miernicza</li>
+                <li>centymetr krawiecki</li>
+                <li>miarka budowlana</li>
+            </ul>
+
         </div>
 
 
 
+        <div class="lesson">
+
+            <h3>Jak mierzyć odcinek?</h3>
+
+            <p>
+                Aby zmierzyć długość odcinka, przykładamy linijkę tak,
+                aby początek odcinka znajdował się przy liczbie <b>0</b>.
+            </p>
+
+            <p>
+                Następnie sprawdzamy, przy jakiej liczbie kończy się odcinek.
+            </p>
+
+            <svg width="500" height="120">
+
+                <line x1="50" y1="60" x2="420" y2="60" stroke="black" stroke-width="2" />
+
+                <circle cx="50" cy="60" r="4" fill="red" />
+                <circle cx="350" cy="60" r="4" fill="red" />
+
+                <text x="40" y="45">A</text>
+                <text x="340" y="45">B</text>
+
+            </svg>
+
+            <p>
+                Odcinek <b>AB</b> ma długość <b>7 cm 2 mm</b>.
+            </p>
+
+        </div>
 
 
 
+        <div class="lesson">
+
+            <h3>Jednostki długości</h3>
+
+            <p>
+                Do określania długości używamy różnych jednostek.
+                Najczęściej używane jednostki to:
+            </p>
+
+            <ul>
+                <li>milimetr (mm)</li>
+                <li>centymetr (cm)</li>
+                <li>decymetr (dm)</li>
+                <li>metr (m)</li>
+                <li>kilometr (km)</li>
+            </ul>
+
+            <div class="units">
+
+                <p>1 cm = 10 mm</p>
+                <p>1 dm = 10 cm</p>
+                <p>1 m = 100 cm</p>
+                <p>1 km = 1000 m</p>
+
+            </div>
+
+            <p>
+                Jednostki te tworzą system metryczny.
+            </p>
+
+        </div>
 
 
 
+        <div class="lesson">
+
+            <h3>Porównywanie odcinków cyrklem</h3>
+
+            <p>
+                Cyrkiel można wykorzystać do porównywania długości odcinków
+                oraz do rysowania odcinków tej samej długości.
+            </p>
+
+            <p>
+                Najpierw ustawiamy cyrkiel tak, aby jego końcówki znajdowały się
+                w punktach <b>A</b> i <b>B</b>.
+            </p>
+
+            <p>
+                Następnie przenosimy cyrkiel w inne miejsce bez zmiany rozstawu.
+            </p>
+
+            <p>
+                Dzięki temu możemy sprawdzić, czy inne odcinki mają taką samą długość.
+            </p>
+
+        </div>
 
 
-    </main>
-    <script src="../../../../script.js"></script>
-    <script src="../../../../zum.js"></script>
-    <script src="../../../../scriptRu.js"></script>
+
+        <div class="lesson">
+
+            <h3>Szacowanie odległości</h3>
+
+            <p>
+                Czasami zanim coś zmierzymy, próbujemy najpierw oszacować długość.
+                To znaczy zgadujemy, jaka może być odległość.
+            </p>
+
+            <p>
+                Na przykład możemy spróbować zgadnąć,
+                ile centymetrów ma długość ołówka lub zeszytu.
+            </p>
+
+            <p>
+                Dopiero potem sprawdzamy wynik za pomocą linijki.
+            </p>
+
+        </div>
+
+
+
+        <div class="exercise">
+
+            <h3>Ćwiczenia</h3>
+
+            <ol>
+
+                <li>Zmierz długość ołówka w swoim piórniku.</li>
+
+                <li>Zmierz szerokość zeszytu.</li>
+
+                <li>Znajdź w klasie przedmiot o długości około 10 cm.</li>
+
+                <li>Narysuj odcinek o długości 6 cm.</li>
+
+                <li>Narysuj odcinek o długości 3 cm 5 mm.</li>
+
+            </ol>
+
+        </div>
+
+
+
+        <div class="exercise">
+
+            <h3>Zadania z podręcznika</h3>
+
+            <p>Za pomocą linijki narysuj odcinek o podanej długości:</p>
+
+            <ul>
+
+                <li>GH = 8 cm</li>
+                <li>IJ = 5 cm</li>
+                <li>TO = 6 cm 5 mm</li>
+                <li>PR = 2 cm 8 mm</li>
+                <li>MA = 3 cm 3 mm</li>
+                <li>XY = 1 cm 9 mm</li>
+
+            </ul>
+
+        </div>
+
+
+
+        <div class="exercise">
+
+            <h3>Zadanie dodatkowe</h3>
+
+            <p>
+                Kratka w zeszycie ma 5 mm długości.
+            </p>
+
+            <p>
+                Ile kratek trzeba narysować, aby otrzymać odcinek długości:
+            </p>
+
+            <ul>
+
+                <li>1 cm</li>
+                <li>2 cm</li>
+                <li>5 cm</li>
+
+            </ul>
+
+        </div>
+
+
+
+    </div>
+
 </body>
 
 </html>
