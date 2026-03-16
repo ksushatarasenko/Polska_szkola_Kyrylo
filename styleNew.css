@@ -375,3 +375,11 @@ cursor:help;
 p .pl{
 font-size:1.15em;
 }
+/*  */
+
+.ulamek{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(255, 81, 0);
+    width: 50px;
+}
