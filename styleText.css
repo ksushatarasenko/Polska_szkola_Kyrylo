@@ -72,7 +72,7 @@ p{
 
 .centr{
     text-align: center;
-    margin: 0 auto;
+    margin: 1% auto;
 }
 
 .red{
@@ -384,6 +384,8 @@ background:#fff8e6;
 width: 80%;
 margin: 0 auto;
 border-radius: 15px;
+margin: 2% auto;
+padding: 2%;
 }
 
 
