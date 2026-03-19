@@ -403,3 +403,27 @@ padding:10px 15px;
 border-radius:8px;
 color:black;
 }
+/* drob */
+.drob {
+    width: 120px;
+    
+    font-family: serif;
+}
+
+.drob p {
+    margin: 0;
+    text-align: right;
+     line-height: 0.7;
+     font-size: 24px;
+}
+
+.drob p span {
+    float: left;
+}
+
+.drob hr {
+    border: none;
+    border-top: 2px solid black;
+    margin: 10px 0 10px 35px;
+}
+/*  */
