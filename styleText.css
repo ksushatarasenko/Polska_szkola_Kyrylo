@@ -287,6 +287,8 @@ font-family:Arial, sans-serif;
 line-height:1.6;
 font-size:17px;
 color:#333;
+border-radius: 20px;
+box-shadow: #333 0px 4px 12px;
 }
 
 
