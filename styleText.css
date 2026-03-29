@@ -30,8 +30,8 @@ h1,h2,h3,h4,h5,h6{
 
 /*  */
 .text{
-    width: 90%;
-    margin: 0 auto;
+    width: 96%;
+    margin: 10px auto;
     font-size: 19px;
 }
 p{
@@ -282,7 +282,7 @@ div{
 
 .text{
 max-width:900px;
-margin:auto;
+margin:10px auto;
 font-family:Arial, sans-serif;
 line-height:1.6;
 font-size:17px;

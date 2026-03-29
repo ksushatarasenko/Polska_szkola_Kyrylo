@@ -172,7 +172,7 @@ a:hover {
 }
 
 .image {
-    max-width: 90%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,11 +182,13 @@ a:hover {
 
 .imageTwo {
     display: flex;
-    max-width: 98%;
+    max-width: 99%;
+    margin: 0 auto;
+    gap: 2px;
 }
 
 .imageTwo>img {
-    width: 100%;
+    width: 50%;
 }
 
 .image>img, .imageFree>img {
