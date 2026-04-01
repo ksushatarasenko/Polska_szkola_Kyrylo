@@ -139,11 +139,11 @@ a:hover {
 /* IMG/ VIDEO prezent */
 .video {
     width: 100%;
-    height: 36em;
+    height: 43em;
     display: flex;
     justify-content: center;
     padding: 5px;
-    margin: 2% auto;
+    margin: 0 auto;
 }
 
 .prezent {
@@ -168,7 +168,7 @@ a:hover {
 .prezent iframe,
 .pdf iframe {
     width: 100%;
-    height: 90%;
+    height: 94%;
 }
 
 .image {
@@ -180,6 +180,8 @@ a:hover {
     position: relative;
 }
 
+
+
 .imageTwo {
     display: flex;
     max-width: 99%;
@@ -187,12 +189,12 @@ a:hover {
     gap: 2px;
 }
 
-.imageTwo>img {
-    width: 50%;
+.imageTwo>div>img {
+    width: 100%;
 }
 
 .image>img, .imageFree>img {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -242,6 +244,17 @@ a:hover {
     justify-content: space-between;
     /* или 'space-evenly', если нужно */
     
+}
+.twoImg {
+    display: flex;
+    width: 100%;
+    margin: 1% auto;
+    gap: 2px;
+}
+.twoImg > div {
+    width: 100%;
+    margin: 1% auto;
+    gap: 2px;
 }
 
 .fonHistoria {
@@ -561,3 +574,9 @@ td {
     color:#555;
     margin-top:10px;
 }
+
+.material{
+    width: 40%;
+    text-align: left;
+}
+
