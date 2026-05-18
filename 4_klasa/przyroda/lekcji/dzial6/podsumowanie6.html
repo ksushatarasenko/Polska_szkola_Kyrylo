@@ -8,7 +8,7 @@
     <title>Tajemnice Przyrody — Powtórzenie działu 6</title>
     <link rel="stylesheet" href="../../../../styleRu.css">
     <link rel="stylesheet" href="../../../../style.css">
-
+    <link rel="stylesheet" href="../../../../styleText.css">
 
     <style>
         * {
@@ -16,6 +16,17 @@
             padding: 0;
             box-sizing: border-box;
         }
+
+        .important {
+            border-left: 6px solid #ff9800;
+            background: #fff8e6;
+            width: 80%;
+            margin: 0 auto;
+            border-radius: 15px;
+            margin: 2% auto;
+            padding: 2%;
+        }
+
 
         body {
             font-family: Arial, sans-serif;
@@ -89,9 +100,10 @@
 
         .cards {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 18px;
             margin-top: 20px;
+            justify-content: space-around;
         }
 
         .card {
@@ -217,7 +229,7 @@
         <section class="section">
 
             <div class="section-title">
-                🏞️ 1. Krajobraz / Ландшафт
+                🏞️ 1. <a href="./lekcja01.html" target="_blank">Krajobraz</a> / Ландшафт
             </div>
 
             <div class="content">
@@ -289,20 +301,43 @@
                 </div>
 
                 <div class="remember">
-                    <h3>🟨 Zapamiętaj! / Запомни!</h3>
-                    <p>Krajobraz naturalny → bez wpływu człowieka.</p>
-                    <p>Krajobraz kulturowy → zmieniony przez człowieka.</p>
-                </div>
+                    <h5>To najważniejsze!</h5>
+                    <ul>
+                        <li>Krajobraz to wygląd obszarów Ziemi wyróżniający się charakterystycznymi cechami.</li>
+                        <li>Krajobraz naturalny jest niezmieniony przez działalność człowieka.</li>
+                        <li>Krajobraz kulturowy powstaje wskutek częściowego lub całkowitego przekształcenia krajobrazu
+                            naturalnego przez człowieka.</li>
+                        <li>Krajobrazy: rolniczy, przemysłowy i miejski powstają wskutek całkowitego przekształcenia
+                        </li>
+                    </ul>
+                    <button class="ru-btn modal-trigger" data-modal="ru_0_1">RU</button>
+
+                    <div class="modal" data-modal="ru_0_1">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h4>Это самое важное!</h4>
+                            <ul>
+                                <li>Ландшафт — это внешний вид участков Земли, отличающийся характерными особенностями.</li>
+                                <li>Природный ландшафт не изменён деятельностью человека.</li>
+                                <li>Культурный ландшафт возникает в результате частичного или полного преобразования природного ландшафта человеком.</li>
+                                <li>Сельскохозяйственные, промышленные и городские ландшафты возникают вследствие полного преобразования природного ландшафта.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><br>
                 <div class="video">
-                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/6499dce040e647009dab661f959987e1?themeId=66&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/6499dce040e647009dab661f959987e1?themeId=66&templateId=5&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
                 </div>
 
                 <div class="quiz">
                     <h3>❓ Mini quiz</h3>
                     <!-- 1 -->
                     <div class="question">
-                        <p>1. Co to jest krajobraz? <button class="ru-btn modal-trigger" data-modal="ru_1_1">Odpowiedź</button></p>
-                        
+                        <p>1. Co to jest krajobraz? <button class="ru-btn modal-trigger"
+                                data-modal="ru_1_1">Odpowiedź</button></p>
+
 
                         <div class="modal" data-modal="ru_1_1">
                             <div class="modal-content">
@@ -310,12 +345,13 @@
                                 <p> ➡️ Krajobraz to wygląd fragmentu powierzchni Ziemi.</p>
                                 <p>➡️ Ландшафт — это внешний вид участка поверхности Земли.</p>
                             </div>
-                        </div>                       
+                        </div>
                     </div>
                     <!-- 2 -->
                     <div class="question">
                         <p>2. Jakie są składniki krajobrazu?
-                        <button class="ru-btn modal-trigger" data-modal="ru_1_2">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_1_2">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_1_2">
                             <div class="modal-content">
@@ -328,7 +364,8 @@
                     <!-- 3 -->
                     <div class="question">
                         <p>3. Co to jest krajobraz naturalny?
-                        <button class="ru-btn modal-trigger" data-modal="ru_1_3">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_1_3">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_1_3">
                             <div class="modal-content">
@@ -341,7 +378,8 @@
                     <!-- 4 -->
                     <div class="question">
                         <p>4. Co to jest krajobraz kulturowy?
-                        <button class="ru-btn modal-trigger" data-modal="ru_1_4">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_1_4">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_1_4">
                             <div class="modal-content">
@@ -354,7 +392,8 @@
                     <!-- 5 -->
                     <div class="question">
                         <p>5. Jak wygląda krajobraz rolniczy?
-                        <button class="ru-btn modal-trigger" data-modal="ru_1_5">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_1_5">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_1_5">
                             <div class="modal-content">
@@ -367,7 +406,8 @@
                     <!-- 6 -->
                     <div class="question">
                         <p>6. Co występuje w krajobrazie przemysłowym?
-                        <button class="ru-btn modal-trigger" data-modal="ru_1_6">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_1_6">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_1_6">
                             <div class="modal-content">
@@ -380,7 +420,8 @@
                     <!-- 7 -->
                     <div class="question">
                         <p>7. Jakie elementy ma krajobraz miejski?
-                        <button class="ru-btn modal-trigger" data-modal="ru_1_7">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_1_7">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_1_7">
                             <div class="modal-content">
@@ -393,7 +434,8 @@
                     <!-- 9 -->
                     <div class="question">
                         <p>9. Czy miasto to krajobraz kulturowy?
-                        <button class="ru-btn modal-trigger" data-modal="ru_1_9">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_1_9">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_1_9">
                             <div class="modal-content">
@@ -405,7 +447,8 @@
                     <!-- 10 -->
                     <div class="question">
                         <p>10. Który krajobraz najbardziej zmienia człowiek?
-                        <button class="ru-btn modal-trigger" data-modal="ru_1_10">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_1_10">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_1_10">
                             <div class="modal-content">
@@ -418,7 +461,8 @@
                     <!-- 2 -->
                     <div class="question">
                         <p>2. Jakie są składniki krajobrazu?
-                        <button class="ru-btn modal-trigger" data-modal="ru_1_2">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_1_2">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_1_2">
                             <div class="modal-content">
@@ -438,7 +482,7 @@
         <section class="section">
 
             <div class="section-title">
-                ⛰️ 2. Ukształtowanie terenu / Формы рельефа
+                ⛰️ 2. <a href="./lekcja02.html" target="_blank">Ukształtowanie terenu</a> / Формы рельефа
             </div>
 
             <div class="content">
@@ -448,8 +492,8 @@
 
                     <ul>
                         <li>⛰️ Wzniesienia — возвышенности</li>
-                        <li>🌄 Pagórki — холмы до 50 м</li>
-                        <li>🏔️ Wzgórza — возвышенности до 300 м</li>
+                        <li>🌄 Pagórki — пагорки (холмики) до 50 м</li>
+                        <li>🏔️ Wzgórza — холмы до 300 м</li>
                         <li>🗻 Góry — горы выше 300 м</li>
                         <li>🏞️ Doliny — долины</li>
                         <li>🌋 Kotliny — котловины</li>
@@ -484,22 +528,40 @@
                 </div>
 
                 <div class="remember">
-                    <h3>🟨 Главное</h3>
-                    <p>Pagórek → do 50 m</p>
-                    <p>Wzgórze → do 300 m</p>
-                    <p>Góra → ponad 300 m</p>
+                    <h4>🟨 Главное</h4>
+                    <ul>
+                        <li><b>pagórki</b> – wzniesienia, które mają do 50 m wysokości,</li>
+                        <li><b>wzgórza</b> – wzniesienia o wysokości do 300 m,</li>
+                        <li><b>góry</b> – wzniesienia o wysokości ponad 300 m.</li>
+                    </ul>
+                </div>
+                <div class="remember">
+                    <h5>To najważniejsze!</h5>
+                    <ul>
+                        <li>Do <em>wypukłych</em> form terenu należą <b>pagórki, wzgórza i góry</b>.</li>
+                        <li>Każde <em>wzniesienie</em> ma <b>szczyt, stoki oraz podnóże</b>.</li>
+                        <li><em>Wklęsłe</em> formy terenu to <b>doliny i kotliny</b>.</li>
+                        <li>Elementami <em><b>doliny</b></em> rzecznej są <b>zbocza, dno oraz koryto rzeczne</b>.</li>
+                        <li><em><b>Kotlina</b></em> niemal ze wszystkich stron jest otoczona wzniesieniami.</li>
+                        <li>Równiną nazywamy rozległy, płaski lub lekko pofalowany teren.</li>
+                    </ul>
                 </div>
 
+
+
                 <div class="video">
-                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/cb0780820e6e485691c5169d40c55b88?themeId=51&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/cb0780820e6e485691c5169d40c55b88?themeId=51&templateId=5&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
                 </div>
 
                 <div class="quiz">
                     <h3>❓ Mini quiz <br>⛰️ 2. UKSZTAŁTOWANIE TERENU / ФОРМЫ РЕЛЬЕФА</h3>
                     <!-- 1 -->
                     <div class="question">
-                        <p>1. Co to jest ukształtowanie terenu? <button class="ru-btn modal-trigger" data-modal="ru_2_1">Odpowiedź</button></p>
-                        
+                        <p>1. Co to jest ukształtowanie terenu? <button class="ru-btn modal-trigger"
+                                data-modal="ru_2_1">Odpowiedź</button></p>
+
 
                         <div class="modal" data-modal="ru_2_1">
                             <div class="modal-content">
@@ -507,12 +569,13 @@
                                 <p> ➡️ To różne formy powierzchni Ziemi.</p>
                                 <p>➡️ Это различные формы поверхности Земли.</p>
                             </div>
-                        </div>                       
+                        </div>
                     </div>
                     <!-- 2 -->
                     <div class="question">
                         <p>2. Jakie są formy wypukłe?
-                        <button class="ru-btn modal-trigger" data-modal="ru_2_2">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_2_2">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_2_2">
                             <div class="modal-content">
@@ -525,7 +588,8 @@
                     <!-- 3 -->
                     <div class="question">
                         <p>3. Jakie są formy wklęsłe?
-                        <button class="ru-btn modal-trigger" data-modal="ru_2_3">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_2_3">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_2_3">
                             <div class="modal-content">
@@ -538,7 +602,8 @@
                     <!-- 4 -->
                     <div class="question">
                         <p>4. Co to jest równina?
-                        <button class="ru-btn modal-trigger" data-modal="ru_2_4">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_2_4">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_2_4">
                             <div class="modal-content">
@@ -551,7 +616,8 @@
                     <!-- 5 -->
                     <div class="question">
                         <p>5. Jak wysokie jest wzgórze?
-                        <button class="ru-btn modal-trigger" data-modal="ru_2_5">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_2_5">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_2_5">
                             <div class="modal-content">
@@ -563,7 +629,8 @@
                     <!-- 6 -->
                     <div class="question">
                         <p>6. Jak wysoki jest pagórek?
-                        <button class="ru-btn modal-trigger" data-modal="ru_2_6">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_2_6">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_2_6">
                             <div class="modal-content">
@@ -575,7 +642,8 @@
                     <!-- 7 -->
                     <div class="question">
                         <p>7. Kiedy zaczynają się góry?
-                        <button class="ru-btn modal-trigger" data-modal="ru_2_7">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_2_7">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_2_7">
                             <div class="modal-content">
@@ -587,7 +655,8 @@
                     <!-- 8 -->
                     <div class="question">
                         <p>8. Czy równina jest płaska?
-                        <button class="ru-btn modal-trigger" data-modal="ru_2_8">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_2_8">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_2_8">
                             <div class="modal-content">
@@ -599,7 +668,8 @@
                     <!-- 9 -->
                     <div class="question">
                         <p>9. Co często płynie przez dolinę?
-                        <button class="ru-btn modal-trigger" data-modal="ru_2_9">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_2_9">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_2_9">
                             <div class="modal-content">
@@ -611,7 +681,8 @@
                     <!-- 10 -->
                     <div class="question">
                         <p>10. Co to jest kotlina?
-                        <button class="ru-btn modal-trigger" data-modal="ru_2_10">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_2_10">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_2_10">
                             <div class="modal-content">
@@ -692,27 +763,31 @@
                 </div>
 
                 <div class="video">
-                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/cb0780820e6e485691c5169d40c55b88?themeId=51&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/a4783db2ad0949c8af1fdf38129dcb20?themeId=52&templateId=5&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
                 </div>
 
                 <div class="quiz">
                     <h3>❓ Mini quiz <br>🪨 3. SKAŁY / ГОРНЫЕ ПОРОДЫ</h3>
                     <!-- 1 -->
                     <div class="question">
-                        <p>1. Z czego są zbudowane skały? <button class="ru-btn modal-trigger" data-modal="ru_3_1">Odpowiedź</button></p>
-                        
+                        <p>1. Z czego są zbudowane skały? <button class="ru-btn modal-trigger"
+                                data-modal="ru_3_1">Odpowiedź</button></p>
+
 
                         <div class="modal" data-modal="ru_3_1">
                             <div class="modal-content">
                                 <span class="close">&times;</span>
                                 <p>➡️ Z minerałów.</p>
                             </div>
-                        </div>                       
+                        </div>
                     </div>
                     <!-- 2 -->
                     <div class="question">
                         <p>2. Na jakie grupy dzielimy skały?
-                        <button class="ru-btn modal-trigger" data-modal="ru_3_2">Odpowiedź</button></p>
+                            <button class="ru-btn modal-trigger" data-modal="ru_3_2">Odpowiedź</button>
+                        </p>
 
                         <div class="modal" data-modal="ru_3_2">
                             <div class="modal-content">
@@ -724,105 +799,113 @@
                     </div>
                     <!-- 3 -->
                     <div class="question">
-                        <p>3. Jakie są formy wklęsłe?
-                        <button class="ru-btn modal-trigger" data-modal="ru_2_3">Odpowiedź</button></p>
+                        <p>3. Jakie skały są bardzo twarde?
+                            <button class="ru-btn modal-trigger" data-modal="ru_3_3">Odpowiedź</button>
+                        </p>
 
-                        <div class="modal" data-modal="ru_2_3">
+                        <div class="modal" data-modal="ru_3_3">
                             <div class="modal-content">
                                 <span class="close">&times;</span>
-                                <p>➡️ Doliny i kotliny.</p>
-                                <p>➡️ Долины и котловины.</p>
+                                <p>➡️ Skały lite.</p>
+                                <p>➡️ Плотные горные породы.</p>
                             </div>
                         </div>
                     </div>
                     <!-- 4 -->
                     <div class="question">
-                        <p>4. Co to jest równina?
-                        <button class="ru-btn modal-trigger" data-modal="ru_2_4">Odpowiedź</button></p>
+                        <p>4. Podaj przykład skały litej.
+                            <button class="ru-btn modal-trigger" data-modal="ru_3_4">Odpowiedź</button>
+                        </p>
 
-                        <div class="modal" data-modal="ru_2_4">
+                        <div class="modal" data-modal="ru_3_4">
                             <div class="modal-content">
                                 <span class="close">&times;</span>
-                                <p>➡️ Płaski lub lekko falisty teren.</p>
-                                <p>➡️ Ровная или слегка холмистая местность.</p>
+                                <p>➡️ Granit, piastkowiec, wapień.</p>
+                                <p>➡️ Гранит, Песчаник, Известняк.</p>
                             </div>
                         </div>
                     </div>
                     <!-- 5 -->
                     <div class="question">
-                        <p>5. Jak wysokie jest wzgórze?
-                        <button class="ru-btn modal-trigger" data-modal="ru_2_5">Odpowiedź</button></p>
+                        <p>5. Podaj przykład skały zwięzłej.
+                            <button class="ru-btn modal-trigger" data-modal="ru_3_5">Odpowiedź</button>
+                        </p>
 
-                        <div class="modal" data-modal="ru_2_5">
+                        <div class="modal" data-modal="ru_3_5">
                             <div class="modal-content">
                                 <span class="close">&times;</span>
-                                <p>➡️ Do 300 m.</p>
+                                <p>➡️ Glina, less.</p>
+                                <p>➡️ Глина, Лёсс .</p>
                             </div>
                         </div>
                     </div>
                     <!-- 6 -->
                     <div class="question">
-                        <p>6. Jak wysoki jest pagórek?
-                        <button class="ru-btn modal-trigger" data-modal="ru_2_6">Odpowiedź</button></p>
+                        <p>6. Podaj przykład skały luźnej.
+                            <button class="ru-btn modal-trigger" data-modal="ru_3_6">Odpowiedź</button>
+                        </p>
 
-                        <div class="modal" data-modal="ru_2_6">
+                        <div class="modal" data-modal="ru_3_6">
                             <div class="modal-content">
                                 <span class="close">&times;</span>
-                                <p>➡️ Do 50 m.</p>
+                                <p>➡️ Piasek. Żwir. </p>
+                                <p>➡️ Песок . Гравий. </p>
                             </div>
                         </div>
                     </div>
                     <!-- 7 -->
                     <div class="question">
-                        <p>7. Kiedy zaczynają się góry?
-                        <button class="ru-btn modal-trigger" data-modal="ru_2_7">Odpowiedź</button></p>
+                        <p>7. Czy piasek jest skałą luźną?
+                            <button class="ru-btn modal-trigger" data-modal="ru_3_7">Odpowiedź</button>
+                        </p>
 
-                        <div class="modal" data-modal="ru_2_7">
-                            <div class="modal-content">
-                                <span class="close">&times;</span>
-                                <p>➡️ Powyżej 300 m.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- 8 -->
-                    <div class="question">
-                        <p>8. Czy równina jest płaska?
-                        <button class="ru-btn modal-trigger" data-modal="ru_2_8">Odpowiedź</button></p>
-
-                        <div class="modal" data-modal="ru_2_8">
+                        <div class="modal" data-modal="ru_3_7">
                             <div class="modal-content">
                                 <span class="close">&times;</span>
                                 <p>➡️ Tak.</p>
                             </div>
                         </div>
                     </div>
-                    <!-- 9 -->
+                    <!-- 8 -->
                     <div class="question">
-                        <p>9. Co często płynie przez dolinę?
-                        <button class="ru-btn modal-trigger" data-modal="ru_2_9">Odpowiedź</button></p>
+                        <p>8. Czy granit można rozkruszyć ręką?
+                            <button class="ru-btn modal-trigger" data-modal="ru_3_8">Odpowiedź</button>
+                        </p>
 
-                        <div class="modal" data-modal="ru_2_9">
+                        <div class="modal" data-modal="ru_3_8">
                             <div class="modal-content">
                                 <span class="close">&times;</span>
-                                <p>➡️ Rzeka.</p>
+                                <p>➡️ Nie.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 9 -->
+                    <div class="question">
+                        <p>9. Jakie skały są sypkie?
+                            <button class="ru-btn modal-trigger" data-modal="ru_3_9">Odpowiedź</button>
+                        </p>
+
+                        <div class="modal" data-modal="ru_3_9">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>➡️ Skały luźne.</p>
                             </div>
                         </div>
                     </div>
                     <!-- 10 -->
                     <div class="question">
-                        <p>10. Co to jest kotlina?
-                        <button class="ru-btn modal-trigger" data-modal="ru_2_10">Odpowiedź</button></p>
+                        <p>10. Czy glina jest miękka po zamoczeniu?
+                            <button class="ru-btn modal-trigger" data-modal="ru_3_10">Odpowiedź</button>
+                        </p>
 
-                        <div class="modal" data-modal="ru_2_10">
+                        <div class="modal" data-modal="ru_3_10">
                             <div class="modal-content">
                                 <span class="close">&times;</span>
-                                <p>➡️ Zagłębienie otoczone wzniesieniami.</p>
-                                <p>➡️ Впадина, окруженная холмами.</p>
+                                <p>➡️ Tak.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
 
             </div>
         </section>
@@ -832,7 +915,7 @@
         <section class="section">
 
             <div class="section-title">
-                💧 4. Wody słodkie i słone / Пресные и солёные воды
+                💧 4. <a href="./lekcja04.html" target="_blank">Wody słodkie i słone</a> / Пресные и солёные воды
             </div>
 
             <div class="content">
@@ -903,24 +986,146 @@
                     <p>Jeziora i rzeki → słodkie.</p>
                 </div>
 
+                <div class="video">
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/818890aacf014a28941c50f3ce86db66?themeId=55&templateId=5&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+
                 <div class="quiz">
-                    <h3>❓ Quiz</h3>
-
+                    <h3>❓ Mini quiz <br>💧 4. WODY SŁODKIE I SŁONE</h3>
+                    <!-- 1 -->
                     <div class="question">
-                        1. Czy ocean jest słony?<br>
-                        ➡️ Tak.
-                    </div>
+                        <p>1. Jak dzielimy wody na Ziemi? <button class="ru-btn modal-trigger"
+                                data-modal="ru_4_1">Odpowiedź</button></p>
 
+
+                        <div class="modal" data-modal="ru_4_1">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>➡️ Na słone i słodkie.</p>
+                                <p>соленые и пресноводные воды</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
                     <div class="question">
-                        2. Czy jezioro to woda stojąca?<br>
-                        ➡️ Tak.
-                    </div>
+                        <p>2. Jakie wody są słone?
+                            <button class="ru-btn modal-trigger" data-modal="ru_4_2">Odpowiedź</button>
+                        </p>
 
+                        <div class="modal" data-modal="ru_4_2">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>➡️ Morza i oceany.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
                     <div class="question">
-                        3. Kanał jest naturalny czy sztuczny?<br>
-                        ➡️ Sztuczny.
-                    </div>
+                        <p>3. Jakie wody są słodkie?
+                            <button class="ru-btn modal-trigger" data-modal="ru_4_3">Odpowiedź</button>
+                        </p>
 
+                        <div class="modal" data-modal="ru_4_3">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>➡️ Rzeki, jeziora, bagna.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="question">
+                        <p>4. Jakie są wody stojące?
+                            <button class="ru-btn modal-trigger" data-modal="ru_4_4">Odpowiedź</button>
+                        </p>
+
+                        <div class="modal" data-modal="ru_4_4">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>➡️ Jeziora, bagna, stawy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="question">
+                        <p>5. Jakie są wody płynące?
+                            <button class="ru-btn modal-trigger" data-modal="ru_4_5">Odpowiedź</button>
+                        </p>
+
+                        <div class="modal" data-modal="ru_4_5">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>➡️ Rzeki, potoki, strumienie.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="question">
+                        <p>6. Czy ocean jest słony?
+                            <button class="ru-btn modal-trigger" data-modal="ru_4_6">Odpowiedź</button>
+                        </p>
+
+                        <div class="modal" data-modal="ru_4_6">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>➡️ Tak.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 7 -->
+                    <div class="question">
+                        <p>7. Czy jezioro jest wodą stojącą?
+                            <button class="ru-btn modal-trigger" data-modal="ru_4_7">Odpowiedź</button>
+                        </p>
+
+                        <div class="modal" data-modal="ru_4_7">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>➡️ Tak.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 8 -->
+                    <div class="question">
+                        <p>8. Co to jest kanał śródlądowy?
+                            <button class="ru-btn modal-trigger" data-modal="ru_4_8">Odpowiedź</button>
+                        </p>
+
+                        <div class="modal" data-modal="ru_4_8">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>➡️ Sztuczny ciek wodny.</p>
+                                <p>➡️ Искусственный водоток.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 9 -->
+                    <div class="question">
+                        <p>9. Czy rzeka płynie?
+                            <button class="ru-btn modal-trigger" data-modal="ru_4_9">Odpowiedź</button>
+                        </p>
+
+                        <div class="modal" data-modal="ru_4_9">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>➡️ Tak.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 10 -->
+                    <div class="question">
+                        <p>10. Czy bagno jest wodą stojącą?
+                            <button class="ru-btn modal-trigger" data-modal="ru_4_10">Odpowiedź</button>
+                        </p>
+
+                        <div class="modal" data-modal="ru_4_10">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>➡️ Tak.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
