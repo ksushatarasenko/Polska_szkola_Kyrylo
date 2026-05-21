@@ -35,7 +35,7 @@
             line-height: 1.6;
         }
 
-        header {
+        .headers {
             background: linear-gradient(135deg, #79bf2f, #5da71f);
             color: white;
             padding: 30px 20px;
@@ -217,10 +217,10 @@
 
 <body>
 
-    <header>
+    <div class="headers">
         <h1>🌍 Tajemnice Przyrody — Powtórzenie działu 6</h1>
         <p>📚 Быстрое повторение перед контрольной • PL + RU</p>
-    </header>
+    </div>
 
     <div class="container">
 
@@ -303,11 +303,11 @@
                 <div class="remember">
                     <h5>To najważniejsze!</h5>
                     <ul>
-                        <li>Krajobraz to wygląd obszarów Ziemi wyróżniający się charakterystycznymi cechami.</li>
-                        <li>Krajobraz naturalny jest niezmieniony przez działalność człowieka.</li>
-                        <li>Krajobraz kulturowy powstaje wskutek częściowego lub całkowitego przekształcenia krajobrazu
+                        <li><b>Krajobraz</b> to wygląd obszarów Ziemi wyróżniający się charakterystycznymi cechami.</li>
+                        <li><b>Krajobraz naturalny</b> jest niezmieniony przez działalność człowieka.</li>
+                        <li><b>Krajobraz kulturowy</b> powstaje wskutek częściowego lub całkowitego przekształcenia krajobrazu
                             naturalnego przez człowieka.</li>
-                        <li>Krajobrazy: rolniczy, przemysłowy i miejski powstają wskutek całkowitego przekształcenia
+                        <li>Krajobrazy: <b><em>rolniczy, przemysłowy i miejski</em></b> powstają wskutek całkowitego przekształcenia
                         </li>
                     </ul>
                     <button class="ru-btn modal-trigger" data-modal="ru_0_1">RU</button>
@@ -317,10 +317,13 @@
                             <span class="close">&times;</span>
                             <h4>Это самое важное!</h4>
                             <ul>
-                                <li>Ландшафт — это внешний вид участков Земли, отличающийся характерными особенностями.</li>
+                                <li>Ландшафт — это внешний вид участков Земли, отличающийся характерными особенностями.
+                                </li>
                                 <li>Природный ландшафт не изменён деятельностью человека.</li>
-                                <li>Культурный ландшафт возникает в результате частичного или полного преобразования природного ландшафта человеком.</li>
-                                <li>Сельскохозяйственные, промышленные и городские ландшафты возникают вследствие полного преобразования природного ландшафта.</li>
+                                <li>Культурный ландшафт возникает в результате частичного или полного преобразования
+                                    природного ландшафта человеком.</li>
+                                <li>Сельскохозяйственные, промышленные и городские ландшафты возникают вследствие
+                                    полного преобразования природного ландшафта.</li>
                             </ul>
                         </div>
                     </div>
@@ -493,7 +496,7 @@
                     <ul>
                         <li>⛰️ Wzniesienia — возвышенности</li>
                         <li>🌄 Pagórki — пагорки (холмики) до 50 м</li>
-                        <li>🏔️ Wzgórza — холмы до 300 м</li>
+                        <li>🏔️ Wzgórza — холмы (возвышенность) до 300 м</li>
                         <li>🗻 Góry — горы выше 300 м</li>
                         <li>🏞️ Doliny — долины</li>
                         <li>🌋 Kotliny — котловины</li>
@@ -545,6 +548,23 @@
                         <li><em><b>Kotlina</b></em> niemal ze wszystkich stron jest otoczona wzniesieniami.</li>
                         <li>Równiną nazywamy rozległy, płaski lub lekko pofalowany teren.</li>
                     </ul>
+                    <button class="ru-btn modal-trigger" data-modal="ru_5">RU</button>
+                    <div class="modal" data-modal="ru_5">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h4>Это самое важное!</h4>
+                            <p>Среди вогнутых форм рельефа различают:</p>
+                            <ul>
+                                <li>К <em>выпуклым</em> формам рельефа относятся <b>холмы, возвышенности и горы</b>.
+                                </li>
+                                <li>Каждая <em>возвышенность</em> имеет <b>вершину, склоны и подножие</b>.</li>
+                                <li><em>Вогнутые</em> формы рельефа — это <b>долины и котловины</b>.</li>
+                                <li>Элементами речной долины являются склоны, дно и русло реки.</li>
+                                <li><b>Котловина</b> почти со всех сторон окружена возвышенностями.</li>
+                                <li>Равниной называют обширную плоскую или слегка волнистую территорию.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
 
 
@@ -757,10 +777,38 @@
 
                 <div class="remember">
                     <h3>🟨 Zapamiętaj!</h3>
-                    <p>Granit = skała lita</p>
-                    <p>Glina = skała zwięzła</p>
-                    <p>Piasek = skała luźna</p>
+                    <p>Granit, piaskowiec, wapień = skała lita</p>
+                    <p>Glina, less = skała zwięzła</p>
+                    <p>Piasek, żwir = skała luźna</p>
                 </div>
+                <div class="remember">
+                <h5>To najważniejsze!</h5>
+                <ul>
+                    <li>Skały dzielimy na lite, zwięzłe i luźne.</li>
+                    <li>Skały lite, na przykład granit, piaskowiec i wapień, są zbudowane z mocno do siebie
+                        przylegających minerałów.</li>
+                    <li>Skały zwięzłe, na przykład glina i less, są zbudowane z okruchów skalnych i minerałów słabo ze
+                        sobą zespolonych. Można je rozkruszyć w dłoni.</li>
+                    <li>Do skał luźnych zaliczamy między innymi piasek i żwir. Tworzące je okruchy nie są ze sobą
+                        zespolone.</li>
+                    <li>Skały są podłożem, na którym powstaje gleba. Najważniejszą częścią gleby jest próchnica
+                        składająca się ze szczątków organizmów.</li>
+                </ul>
+                <button class="ru-btn modal-trigger" data-modal="ru_9">RU</button>
+                <div class="modal" data-modal="ru_9">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h4>Это самое важное!</h4>
+                    <ul>
+                        <li>Горные породы делятся на плотные, связные и рыхлые.</li>
+                        <li>Плотные породы, например гранит, песчаник и известняк, состоят из минералов, очень плотно прилегающих друг к другу.</li>
+                        <li>Связные породы, например глина и лёсс, состоят из обломков горных пород и минералов, слабо соединённых между собой. Их можно раскрошить в руке.</li>
+                        <li>К рыхлым породам относятся, среди прочего, песок и гравий. Образующие их частицы не соединены между собой.</li>
+                        <li>Горные породы являются основой, на которой образуется почва. Самой важной частью почвы является перегной, состоящий из остатков организмов.</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
 
                 <div class="video">
                     <iframe style="max-width:100%"
@@ -981,9 +1029,33 @@
                 </div>
 
                 <div class="remember">
-                    <h3>🟨 Главное</h3>
-                    <p>Morza i oceany → słone.</p>
-                    <p>Jeziora i rzeki → słodkie.</p>
+                    <h5>To najważniejsze!</h5>
+
+                    <ul>
+                        <li>Na Ziemi występują wody słone i wody słodkie.</li>
+                        <li>Wody słone znajdują się w morzach i oceanach.</li>
+                        <li>Na lądach występują wody słodkie. Dzielimy je na stojące oraz płynące.</li>
+                        <li>Do wód stojących zaliczamy jeziora naturalne i sztuczne, bagna oraz stawy.</li>
+                        <li>Wśród wód płynących wyróżniamy cieki naturalne: rzeki, strumienie, potoki, a także cieki
+                            sztuczne, czyli kanały śródlądowe.</li>
+                    </ul>
+                    <div>
+                        <button class="ru-btn modal-trigger" data-modal="ru_7">RU</button>
+                        <div class="modal" data-modal="ru_7">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h4>Это самое важное!</h4>
+                                <ul>
+                                    <li>На Земле существуют солёные и пресные воды.</li>
+                                    <li>Солёные воды находятся в морях и океанах.</li>
+                                    <li>На суше встречаются пресные воды. Они делятся на стоячие и текучие.</li>
+                                    <li>К стоячим водам относятся природные и искусственные озёра, болота и пруды.</li>
+                                    <li>Среди текучих вод различают естественные водотоки: реки, ручьи, потоки, а также
+                                        искусственные водотоки — судоходные каналы.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="video">
