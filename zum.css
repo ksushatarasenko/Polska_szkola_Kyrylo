@@ -32,3 +32,52 @@
 .zum:hover {
     transform: scale(1.05);
 }
+
+.image-overlay {
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0,0,0,0.9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999;
+
+    overflow: hidden;
+}
+
+.image-overlay img {
+
+    max-width: 90%;
+    max-height: 90%;
+
+    user-select: none;
+
+    cursor: grab;
+
+    transition: transform 0.05s ease;
+}
+
+.image-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.image-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+
+    transition: transform 0.05s ease;
+    cursor: grab;
+    user-select: none;
+}
