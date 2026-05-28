@@ -30,54 +30,33 @@
 }
 
 .zum:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 .image-overlay {
     position: fixed;
-    inset: 0;
 
-    background: rgba(0,0,0,0.9);
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: rgba(0,0,0,0.92);
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    z-index: 9999;
-
-    overflow: hidden;
+    z-index: 999999;
 }
 
 .image-overlay img {
 
-    max-width: 90%;
-    max-height: 90%;
+    width: 100vw;
+    height: 100vh;
 
-    user-select: none;
+    object-fit: contain;
 
-    cursor: grab;
-
-    transition: transform 0.05s ease;
-}
-
-.image-overlay {
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.9);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    z-index: 9999;
-    overflow: hidden;
-}
-
-.image-overlay img {
-    max-width: 90%;
-    max-height: 90%;
-
-    transition: transform 0.05s ease;
-    cursor: grab;
     user-select: none;
 }
