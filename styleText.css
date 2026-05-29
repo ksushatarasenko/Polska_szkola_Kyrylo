@@ -52,12 +52,17 @@ p{
     color: #333;
 }
 .p{
-    font-size: 19px;
+    font-size: 22px;
     text-indent: 0px;
 }
 
 .p16{
     font-size: 16px;
+}
+.p15{
+    font-size: 15px;
+    font-style: italic;
+    margin-top: -8px;
 }
 .p26{
     font-size: 26px;

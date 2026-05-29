@@ -64,9 +64,10 @@ border-radius: 15px;
 }
 
 .image-card img{
-width:70%;
+width:80%;
 display:block;
 border-radius: 15px;
+margin: 0 auto;
 }
 
 .image-card p{
